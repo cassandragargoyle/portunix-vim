@@ -21,16 +21,35 @@ For the VIM parser itself (layers, plugins, usage) see
 
 ### Prerequisites
 
-`vim-parser-table` depends on `table-detector-api` and `table-detector-pdf`, which live in
-[portunix-plugins](https://github.com/cassandragargoyle/portunix-plugins) (`plugins/table-detector`).
-Install them into the local Maven repository first:
+Some dependencies come from GitHub Packages, which requires authentication even for public
+packages:
 
-```bash
-git clone https://github.com/cassandragargoyle/portunix-plugins
-mvn -f portunix-plugins/plugins/table-detector/pom.xml install -DskipTests
+| Repository id                    | Source                                                                                                    | Artifacts                                  |
+| -------------------------------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| `github-portunix-api`            | [cassandragargoyle/api](https://github.com/cassandragargoyle/api)                                         | `org-cassandragargoyle-api`                |
+| `github-portunix-table-detector` | [cassandragargoyle/portunix-table-detector](https://github.com/cassandragargoyle/portunix-table-detector) | `table-detector-api`, `table-detector-pdf` |
+
+Create a GitHub personal access token (classic) with the `read:packages` scope and add one
+server per repository id to `~/.m2/settings.xml`:
+
+```xml
+<settings>
+  <servers>
+    <server>
+      <id>github-portunix-api</id>
+      <username>YOUR_GITHUB_LOGIN</username>
+      <password>YOUR_TOKEN</password>
+    </server>
+    <server>
+      <id>github-portunix-table-detector</id>
+      <username>YOUR_GITHUB_LOGIN</username>
+      <password>YOUR_TOKEN</password>
+    </server>
+  </servers>
+</settings>
 ```
 
-The required version is the `table-detector.version` property in
+The required table-detector version is the `table-detector.version` property in
 [`java/vim-parser/pom.xml`](java/vim-parser/pom.xml).
 
 ### Commands

@@ -33,10 +33,10 @@ The workflow [`.github/workflows/vim-parser.yml`](../../.github/workflows/vim-pa
 pull requests to `main`, on pushes to `main` and manually (`workflow_dispatch`) when
 `java/vim-parser/**` or the workflow changes.
 
-| Step                  | What it does                                                                |
-| --------------------- | --------------------------------------------------------------------------- |
-| Checkout table-detector | Checks out `cassandragargoyle/portunix-plugins` and installs `plugins/table-detector` |
-| Build and test        | `mvn -B verify` in `java/vim-parser` (unit + integration tests)             |
+| Step                                  | What it does                                                                                                         |
+| ------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Configure GitHub Packages credentials | Writes `~/.m2/settings.xml` with servers `github-portunix-api` and `github-portunix-table-detector` (`GITHUB_TOKEN`) |
+| Build and test                        | `mvn -B verify` in `java/vim-parser` (unit + integration tests)                                                      |
 
 TK stemmer tests need the native TK library, which the runner does not have; they are excluded in
 CI the same way as in portunix-plugins.

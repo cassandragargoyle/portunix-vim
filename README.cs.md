@@ -22,16 +22,35 @@ Dokumentaci samotného VIM parseru (vrstvy, pluginy, použití) najdete v
 
 ### Předpoklady
 
-`vim-parser-table` závisí na `table-detector-api` a `table-detector-pdf`, které jsou v
-[portunix-plugins](https://github.com/cassandragargoyle/portunix-plugins) (`plugins/table-detector`).
-Nejprve je nainstalujte do lokálního Maven repozitáře:
+Některé závislosti pocházejí z GitHub Packages, které vyžadují autentizaci i u veřejných
+balíčků:
 
-```bash
-git clone https://github.com/cassandragargoyle/portunix-plugins
-mvn -f portunix-plugins/plugins/table-detector/pom.xml install -DskipTests
+| Id repozitáře                    | Zdroj                                                                                                     | Artefakty                                  |
+| -------------------------------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| `github-portunix-api`            | [cassandragargoyle/api](https://github.com/cassandragargoyle/api)                                         | `org-cassandragargoyle-api`                |
+| `github-portunix-table-detector` | [cassandragargoyle/portunix-table-detector](https://github.com/cassandragargoyle/portunix-table-detector) | `table-detector-api`, `table-detector-pdf` |
+
+Vytvořte GitHub personal access token (classic) se scope `read:packages` a do
+`~/.m2/settings.xml` přidejte pro každé id repozitáře jeden server:
+
+```xml
+<settings>
+  <servers>
+    <server>
+      <id>github-portunix-api</id>
+      <username>VAS_GITHUB_LOGIN</username>
+      <password>VAS_TOKEN</password>
+    </server>
+    <server>
+      <id>github-portunix-table-detector</id>
+      <username>VAS_GITHUB_LOGIN</username>
+      <password>VAS_TOKEN</password>
+    </server>
+  </servers>
+</settings>
 ```
 
-Požadovaná verze je uvedena ve vlastnosti `table-detector.version` v
+Požadovaná verze table-detectoru je uvedena ve vlastnosti `table-detector.version` v
 [`java/vim-parser/pom.xml`](java/vim-parser/pom.xml).
 
 ### Příkazy

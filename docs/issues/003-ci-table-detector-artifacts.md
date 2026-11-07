@@ -57,6 +57,23 @@ Local builds work only because `table-detector` is already installed in `~/.m2`.
 1. Remove the "Checkout portunix-plugins" and "Install table-detector" steps from the workflow
 1. Update the build prerequisites in `README.md`, `README.cs.md` and `AGENTS.md`
 
+## Chosen Solution
+
+A variant of option 1: table-detector was moved without git history into the public repository
+[portunix-table-detector](https://github.com/cassandragargoyle/portunix-table-detector)
+(portunix-plugins#239), which publishes `table-detector-*` `1.0.3` to GitHub Packages.
+
+- `java/vim-parser/pom.xml`: `table-detector.version` = `1.0.3`; repository ids
+  `github-portunix-api` (`cassandragargoyle/api`, renamed from `github`) and
+  `github-portunix-table-detector` (`cassandragargoyle/portunix-table-detector`)
+- `vim-parser.yml`: no checkout of portunix-plugins; a step writes `~/.m2/settings.xml` with both
+  servers using `GITHUB_TOKEN` (`setup-java` writes only one server)
+- Local builds need both server ids in `~/.m2/settings.xml` with a PAT that has `read:packages`
+  (`README.md`, `README.cs.md`, `AGENTS.md`)
+- GitHub Packages serves all packages of an owner from any repository URL of that owner, so
+  Maven may resolve `table-detector-*` through the first matching repository; the dedicated
+  repository entry documents the source and keeps working if that behaviour changes
+
 ## Acceptance Criteria
 
 1. The `vim-parser` workflow passes on `main` and on pull requests without access to private

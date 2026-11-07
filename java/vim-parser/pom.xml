@@ -46,8 +46,8 @@
 		<pf4j.version>3.15.0</pf4j.version>
 		<opentelemetry.version>1.61.0</opentelemetry.version>
 		<cassandragargoyle-api.version>1.0.0.9</cassandragargoyle-api.version>
-		<!-- Consumed from portunix-plugins (plugins/table-detector), not a reactor sibling -->
-		<table-detector.version>1.0.3-SNAPSHOT</table-detector.version>
+		<!-- Published from cassandragargoyle/portunix-table-detector to GitHub Packages -->
+		<table-detector.version>1.0.3</table-detector.version>
 
 		<!-- Java version -->
 		<maven.compiler.release>21</maven.compiler.release>
@@ -287,8 +287,15 @@
 			<url>https://repo.maven.apache.org/maven2</url>
 		</repository>
 		<repository>
-			<id>github</id>
+			<id>github-portunix-api</id>
 			<url>https://maven.pkg.github.com/cassandragargoyle/api</url>
+		</repository>
+		<repository>
+			<id>github-portunix-table-detector</id>
+			<url>https://maven.pkg.github.com/cassandragargoyle/portunix-table-detector</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
 		</repository>
 	</repositories>
 
