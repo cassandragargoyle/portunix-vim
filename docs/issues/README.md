@@ -43,17 +43,17 @@ When an issue reaches a terminal status (✅ Implemented, ❌ Closed, ➡️ Mov
 ## History
 
 `vim-parser` was moved here from
-[portunix-plugins](https://github.com/cassandragargoyle/portunix-plugins) with its full git history.
+[portunix-plugins](https://github.com/cassandragargoyle/portunix-plugins) as a single initial
+commit; the earlier git history was not carried over.
 
-- Issue numbers in commit messages **before the move** (e.g. `feat(159): ...`) refer to
-  portunix-plugins issues
+- References to portunix-plugins issues are written as `portunix-plugins#NN`
 - Completed vim-parser issues stay in portunix-plugins: write-ups in
   [`docs/issues/done/`](https://github.com/cassandragargoyle/portunix-plugins/tree/main/docs/issues/done)
   and the GitHub
   [`plugin-vim-parser` label](https://github.com/cassandragargoyle/portunix-plugins/issues?q=label%3Aplugin-vim-parser)
 - Open issues were recreated here, each with an **Origin** line:
 
-| portunix-vim | portunix-plugins | Title                                           |
-| ------------ | ---------------- | ----------------------------------------------- |
-| #1           | #32              | VIM Parser - Lemmatizer Plugin                  |
+| portunix-vim | portunix-plugins | Title                                             |
+| ------------ | ---------------- | ------------------------------------------------- |
+| #1           | #32              | VIM Parser - Lemmatizer Plugin                    |
 | #2           | #36              | VIM Parser - MorphoDiTa Lemmatizer Backend Plugin |

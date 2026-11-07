@@ -56,6 +56,8 @@ dist/
 
 ### Sestavení
 
+Spouštějte z kořene repozitáře (je tam `Makefile`):
+
 ```bash
 # sestavení všech modulů + plugin ZIP balíčků
 make build
