@@ -43,3 +43,6 @@ NOTES.md
 CLAUDE.local.md
 .claude/settings.local.json
 .env*
+
+# Debugging HTML of the PDF books (scripts/build-book-pdf.py --html)
+docs/book/**/*.html

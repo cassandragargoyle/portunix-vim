@@ -56,6 +56,8 @@ dist/
 
 ### Build
 
+Run from the repository root (the `Makefile` lives there):
+
 ```bash
 # Build all modules + plugin ZIPs
 make build

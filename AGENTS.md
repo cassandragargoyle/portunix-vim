@@ -20,6 +20,9 @@ Instructions for AI coding agents (Claude Code, Codex, Copilot, ...) and contrib
 - `docs/adr/` — Architecture Decision Records
 - `docs/issues/` — long-form issue write-ups
 - `docs/contributing/` — contribution guides
+- `docs/book/` — PDF books from Markdown chapters (EN and CS); `docs/book/vim/` is the canonical,
+  most complete description of VIM in the ecosystem (see [docs/book/README.md](docs/book/README.md),
+  skill `book-chapter`, `make book`)
 
 ## Coding Guidelines & Development Instructions
 
@@ -63,11 +66,10 @@ Instructions for AI coding agents (Claude Code, Codex, Copilot, ...) and contrib
 
 ### Java
 
-Build and test from the plugin directory:
+Build and test from the repository root (wraps `mvn -f java/vim-parser/pom.xml clean verify`):
 
 ```bash
-cd java/vim-parser
-mvn clean verify
+make verify
 ```
 
 `vim-parser-table` consumes `table-detector-api` and `table-detector-pdf` from
@@ -75,7 +77,8 @@ mvn clean verify
 (`table-detector.version` in `java/vim-parser/pom.xml`). Install them locally with
 `mvn -f <portunix-plugins>/plugins/table-detector/pom.xml install -DskipTests`.
 
-Distribution package for Portunix: `make dist` in `java/vim-parser`.
+Distribution package for Portunix: `make dist` in the repository root (output in `dist/`).
+Run `make help` for all targets.
 
 ### Python
 
