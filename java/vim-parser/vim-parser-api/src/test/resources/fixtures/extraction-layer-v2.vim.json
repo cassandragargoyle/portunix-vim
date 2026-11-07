@@ -1,0 +1,217 @@
+{
+  "vim_version" : "2.0",
+  "document" : {
+    "source" : "invoice.pdf",
+    "sources" : [ {
+      "file" : "invoice.pdf",
+      "page" : 1,
+      "type" : "pdf",
+      "format" : "application/pdf",
+      "dimensions" : {
+        "width" : 2480,
+        "height" : 3508
+      },
+      "size_bytes" : 123456,
+      "sha256" : "abc123"
+    } ],
+    "pages" : 2
+  },
+  "layers" : {
+    "physical" : {
+      "blocks" : [ ],
+      "barcodes" : [ ],
+      "tables" : [ ],
+      "graphics" : [ ]
+    },
+    "structural" : {
+      "blocks" : [ ],
+      "barcodes" : [ ]
+    },
+    "semantic" : {
+      "entities" : [ ],
+      "payments" : [ ]
+    },
+    "extraction" : {
+      "template_ref" : {
+        "template_id" : "invoice-v1",
+        "template_version" : "1.2.3",
+        "template_source" : "templates/invoice-v1.json"
+      },
+      "sources" : [ {
+        "source_id" : "s1",
+        "source_file" : "invoice.pdf",
+        "source_page" : 1,
+        "provenance" : {
+          "extraction_method" : "zone_ocr",
+          "engine" : "tesseract",
+          "engine_version" : "5.3.0",
+          "params" : {
+            "lang" : "ces",
+            "psm" : 6
+          },
+          "timestamp" : "2026-05-19T10:00:00Z",
+          "duration_ms" : 245,
+          "pipeline_step" : "ocr-zones"
+        },
+        "fields" : [ {
+          "field_id" : "invoice_number",
+          "label" : "Invoice number",
+          "value" : "INV-001",
+          "raw_value" : "INV-OO1",
+          "data_type" : "string",
+          "confidence" : 0.91,
+          "bbox" : {
+            "right" : 180.0,
+            "bottom" : 220.0,
+            "x" : 100.0,
+            "y" : 200.0,
+            "width" : 80.0,
+            "height" : 20.0
+          },
+          "zone_id" : "zone_invoice_no",
+          "extraction_method" : "zone_ocr",
+          "alternatives" : [ {
+            "value" : "INV-OO1",
+            "confidence" : 0.42
+          } ],
+          "validation" : {
+            "status" : "valid",
+            "rules_applied" : [ "regex:^INV-\\d+$" ]
+          },
+          "revisions" : [ {
+            "revision" : 1,
+            "old_value" : "INV-OO1",
+            "new_value" : "INV-001",
+            "actor" : "operator",
+            "actor_id" : "user:zk",
+            "reason" : "character_replacement",
+            "comment" : "OCR O→0",
+            "timestamp" : "2026-05-19T10:05:00Z"
+          } ]
+        }, {
+          "field_id" : "amount",
+          "value" : 1234.56,
+          "data_type" : "decimal",
+          "confidence" : 0.98
+        }, {
+          "field_id" : "note",
+          "value" : null,
+          "data_type" : "string",
+          "confidence" : 0.0
+        } ],
+        "tables" : [ {
+          "table_id" : "items-p1",
+          "group_id" : "items",
+          "page_sequence" : 1,
+          "bbox" : {
+            "right" : 350.0,
+            "bottom" : 520.0,
+            "x" : 50.0,
+            "y" : 400.0,
+            "width" : 300.0,
+            "height" : 120.0
+          },
+          "confidence" : 0.9,
+          "columns" : [ {
+            "column_id" : "c1",
+            "label" : "Description",
+            "data_type" : "string"
+          }, {
+            "column_id" : "c2",
+            "label" : "Qty",
+            "data_type" : "number"
+          } ],
+          "rows" : [ {
+            "row_index" : 0,
+            "is_header" : false,
+            "cells" : [ {
+              "column_id" : "c1",
+              "value" : "Widget",
+              "raw_value" : "Widget",
+              "confidence" : 0.88,
+              "row_span" : 1,
+              "col_span" : 1
+            } ]
+          } ]
+        } ]
+      } ],
+      "document" : {
+        "completeness" : 0.95,
+        "field_count" : 2,
+        "fields" : [ {
+          "field_id" : "invoice_number",
+          "label" : "Invoice number",
+          "value" : "INV-001",
+          "data_type" : "string",
+          "confidence" : 0.95,
+          "collect_mode" : "highest_confidence",
+          "source_refs" : [ {
+            "source_id" : "s1",
+            "field_id" : "invoice_number"
+          } ],
+          "revisions" : [ {
+            "revision" : 1,
+            "property" : "status",
+            "old_value" : null,
+            "new_value" : "confirmed",
+            "actor" : "rule",
+            "reason" : "other"
+          } ]
+        } ],
+        "tables" : [ {
+          "table_id" : "items",
+          "label" : "Line items",
+          "columns" : [ {
+            "column_id" : "c1",
+            "label" : "Description",
+            "data_type" : "string"
+          } ],
+          "rows" : [ {
+            "row_index" : 0,
+            "cells" : [ {
+              "column_id" : "c1",
+              "value" : "Widget"
+            } ],
+            "source_ref" : {
+              "source_id" : "s1",
+              "table_id" : "items-p1",
+              "row_index" : 0
+            }
+          } ],
+          "source_fragments" : [ "items-p1" ],
+          "total_rows" : 1,
+          "confidence" : 0.88
+        } ],
+        "groups" : [ {
+          "group_id" : "items",
+          "label" : "Line items",
+          "repeat_mode" : "per_item",
+          "instances" : [ {
+            "instance_index" : 0,
+            "source_id" : "s1",
+            "fields" : [ {
+              "field_id" : "invoice_number",
+              "label" : "Invoice number",
+              "value" : "INV-001",
+              "data_type" : "string",
+              "confidence" : 0.95,
+              "collect_mode" : "highest_confidence",
+              "source_refs" : [ {
+                "source_id" : "s1",
+                "field_id" : "invoice_number"
+              } ],
+              "revisions" : [ {
+                "revision" : 1,
+                "property" : "status",
+                "old_value" : null,
+                "new_value" : "confirmed",
+                "actor" : "rule",
+                "reason" : "other"
+              } ]
+            } ]
+          } ]
+        } ]
+      }
+    }
+  }
+}

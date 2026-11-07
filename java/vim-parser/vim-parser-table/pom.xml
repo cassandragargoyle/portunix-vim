@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.cassandragargoyle.portunix</groupId>
+		<artifactId>vim-parser-parent</artifactId>
+		<version>0.1.8-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>vim-parser-table</artifactId>
+	<packaging>jar</packaging>
+
+	<name>Portunix VIM Parser - Table Extraction Plugin</name>
+	<description>Table extraction plugin using PDFBox for detecting and extracting tabular data from PDFs</description>
+
+	<properties>
+		<plugin.id>table-plugin</plugin.id>
+	</properties>
+
+	<dependencies>
+		<!-- API module -->
+		<dependency>
+			<groupId>org.cassandragargoyle.portunix</groupId>
+			<artifactId>vim-parser-api</artifactId>
+		</dependency>
+
+		<!-- Table Detector (Issue #037) -->
+		<dependency>
+			<groupId>org.cassandragargoyle.portunix</groupId>
+			<artifactId>table-detector-api</artifactId>
+			<version>${table-detector.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.cassandragargoyle.portunix</groupId>
+			<artifactId>table-detector-pdf</artifactId>
+			<version>${table-detector.version}</version>
+		</dependency>
+
+		<!-- CassandraGargoyle API for logging -->
+		<dependency>
+			<groupId>org.cassandragargoyle</groupId>
+			<artifactId>org-cassandragargoyle-api</artifactId>
+		</dependency>
+
+		<!-- PF4J Plugin Framework -->
+		<dependency>
+			<groupId>org.pf4j</groupId>
+			<artifactId>pf4j</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- PDFBox for PDF processing -->
+		<dependency>
+			<groupId>org.apache.pdfbox</groupId>
+			<artifactId>pdfbox</artifactId>
+		</dependency>
+
+		<!-- Jackson for JSON -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-annotations</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+		</dependency>
+
+		<!-- Testing -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-api</artifactId>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<!-- Assembly Plugin for creating plugin ZIP -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<configuration>
+					<descriptors>
+						<descriptor>../src/assembly/plugin-zip.xml</descriptor>
+					</descriptors>
+					<finalName>${plugin.id}-${project.version}</finalName>
+					<appendAssemblyId>false</appendAssemblyId>
+				</configuration>
+				<executions>
+					<execution>
+						<id>make-plugin-zip</id>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

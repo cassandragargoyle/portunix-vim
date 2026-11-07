@@ -1,0 +1,29 @@
+[
+  {
+    "id": "erta-ale-ocr-test",
+    "name": "Erta Ale and the Volcanoes of the Afar Triangle (OCR test)",
+    "filename": "erta-ale-ocr-test.pdf",
+    "sha256": "7bebd5ec39cc2c4b3e498a6e2e952a21c8bfab37ea62592469caa54a27960b4c",
+    "sources": [
+      "https://unesdoc.unesco.org/ark:/48223/pf0000034093"
+    ]
+  },
+  {
+    "id": "babicka-nemcova",
+    "name": "Babicka - Bozena Nemcova (Mestska knihovna v Praze)",
+    "filename": "babicka-nemcova.pdf",
+    "sha256": "3fbfe871ba05b6360a72b8951f7cc9085df4f8e98d8cdea9282507104297958d",
+    "sources": [
+      "https://web2.mlp.cz/koweb/00/03/34/76/44/babicka.pdf"
+    ]
+  },
+  {
+    "id": "meditations-marcus-aurelius",
+    "name": "Meditations - Marcus Aurelius (Internet Archive)",
+    "filename": "meditations-marcus-aurelius.pdf",
+    "sha256": "2ef7f58ecc46e255853025d234ce330bcc7d2cc74565ff62999a3b5df16e233d",
+    "sources": [
+      "https://archive.org/download/meditationsofmar00marc/meditationsofmar00marc.pdf"
+    ]
+  }
+]

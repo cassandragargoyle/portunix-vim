@@ -1,0 +1,475 @@
+{
+  "description": "Test data for Czech stemming accuracy tests - TK Stemmer (Snowball)",
+  "language": "czech",
+  "stemmerType": "tk-snowball",
+  "source": "Based on Czech morphology research and linguistic resources",
+  "references": [
+    "https://nlp.fi.muni.cz/ma/",
+    "https://prirucka.ujc.cas.cz/",
+    "https://www.mojecestina.cz/"
+  ],
+  "documentation": "../../../docs/stemming-accuracy-analysis.md",
+  "thresholds": {
+    "nounConsistency": 0.03,
+    "adjectiveConsistency": 0.10,
+    "overallAccuracy": 0.65,
+    "minTokensPerSecond": 50000
+  },
+  "thresholdsExplanation": {
+    "nounConsistency": "Very low because suffix-stripping cannot handle Czech morphology well. Only ~1/29 nouns have all forms with identical stem.",
+    "adjectiveConsistency": "Very low (~10-15%) because comparative/superlative forms have different stems and soft adjectives vary.",
+    "overallAccuracy": "Measures how many words fall into the majority stem group. More tolerant metric.",
+    "minTokensPerSecond": "Native C++ implementation, faster than pure Java."
+  },
+  "nouns": [
+    {
+      "lemma": "faktura",
+      "category": "business",
+      "pattern": "žena",
+      "description": "invoice - feminine, soft declension",
+      "forms": ["faktura", "faktury", "faktuře", "fakturu", "fakturo", "fakturou", "faktur", "fakturám", "fakturách", "fakturami"]
+    },
+    {
+      "lemma": "dodavatel",
+      "category": "business",
+      "pattern": "muž",
+      "description": "supplier - masculine animate",
+      "forms": ["dodavatel", "dodavatele", "dodavateli", "dodavatelem", "dodavatelé", "dodavatelů", "dodavatelům", "dodavatelích", "dodavateli"]
+    },
+    {
+      "lemma": "částka",
+      "category": "business",
+      "pattern": "žena",
+      "description": "amount - feminine",
+      "forms": ["částka", "částky", "částce", "částku", "částkou", "částek", "částkám", "částkách", "částkami"]
+    },
+    {
+      "lemma": "platba",
+      "category": "business",
+      "pattern": "žena",
+      "description": "payment - feminine",
+      "forms": ["platba", "platby", "platbě", "platbu", "platbou", "plateb", "platbám", "platbách", "platbami"]
+    },
+    {
+      "lemma": "dokument",
+      "category": "business",
+      "pattern": "hrad",
+      "description": "document - masculine inanimate",
+      "forms": ["dokument", "dokumentu", "dokumentem", "dokumenty", "dokumentů", "dokumentům", "dokumentech"]
+    },
+    {
+      "lemma": "smlouva",
+      "category": "business",
+      "pattern": "žena",
+      "description": "contract - feminine",
+      "forms": ["smlouva", "smlouvy", "smlouvě", "smlouvu", "smlouvou", "smluv", "smlouvám", "smlouvách", "smlouvami"]
+    },
+    {
+      "lemma": "zákazník",
+      "category": "business",
+      "pattern": "pán",
+      "description": "customer - masculine animate",
+      "forms": ["zákazník", "zákazníka", "zákazníkovi", "zákazníkem", "zákazníci", "zákazníků", "zákazníkům", "zákaznících", "zákazníky"]
+    },
+    {
+      "lemma": "objednávka",
+      "category": "business",
+      "pattern": "žena",
+      "description": "order - feminine",
+      "forms": ["objednávka", "objednávky", "objednávce", "objednávku", "objednávkou", "objednávek", "objednávkám", "objednávkách", "objednávkami"]
+    },
+    {
+      "lemma": "daň",
+      "category": "business",
+      "pattern": "píseň",
+      "description": "tax - feminine soft",
+      "forms": ["daň", "daně", "dani", "daní", "daním", "daních", "daněmi"]
+    },
+    {
+      "lemma": "účet",
+      "category": "business",
+      "pattern": "hrad",
+      "description": "account/bill - masculine inanimate",
+      "forms": ["účet", "účtu", "účtem", "účty", "účtů", "účtům", "účtech"]
+    },
+    {
+      "lemma": "zboží",
+      "category": "business",
+      "pattern": "stavení",
+      "description": "goods - neuter",
+      "forms": ["zboží"]
+    },
+    {
+      "lemma": "služba",
+      "category": "business",
+      "pattern": "žena",
+      "description": "service - feminine",
+      "forms": ["služba", "služby", "službě", "službu", "službou", "služeb", "službám", "službách", "službami"]
+    },
+    {
+      "lemma": "pes",
+      "category": "fleeting-e",
+      "pattern": "pán",
+      "description": "dog - fleeting 'e' (pohyblivé e): pes→psa",
+      "difficulty": "hard",
+      "forms": ["pes", "psa", "psovi", "pse", "psem", "psi", "psů", "psům", "psech", "psy"]
+    },
+    {
+      "lemma": "orel",
+      "category": "fleeting-e",
+      "pattern": "muž",
+      "description": "eagle - fleeting 'e': orel→orla",
+      "difficulty": "hard",
+      "forms": ["orel", "orla", "orlovi", "orle", "orlem", "orli", "orlů", "orlům", "orlech", "orly"]
+    },
+    {
+      "lemma": "den",
+      "category": "fleeting-e",
+      "pattern": "special",
+      "description": "day - fleeting 'e': den→dne",
+      "difficulty": "hard",
+      "forms": ["den", "dne", "dni", "dnem", "dny", "dnů", "dnům", "dnech"]
+    },
+    {
+      "lemma": "sen",
+      "category": "fleeting-e",
+      "pattern": "hrad",
+      "description": "dream - fleeting 'e': sen→snu",
+      "difficulty": "hard",
+      "forms": ["sen", "snu", "snem", "sny", "snů", "snům", "snech"]
+    },
+    {
+      "lemma": "lev",
+      "category": "fleeting-e",
+      "pattern": "pán",
+      "description": "lion - fleeting 'e': lev→lva",
+      "difficulty": "hard",
+      "forms": ["lev", "lva", "lvovi", "lve", "lvem", "lvi", "lvů", "lvům", "lvech", "lvy"]
+    },
+    {
+      "lemma": "vítr",
+      "category": "fleeting-e",
+      "pattern": "hrad",
+      "description": "wind - fleeting 'e': vítr→větru",
+      "difficulty": "hard",
+      "forms": ["vítr", "větru", "větrem", "větry", "větrů", "větrům", "větrech"]
+    },
+    {
+      "lemma": "kniha",
+      "category": "consonant-alternation",
+      "pattern": "žena",
+      "description": "book - h/z alternation: kniha→knize",
+      "difficulty": "hard",
+      "forms": ["kniha", "knihy", "knize", "knihu", "kniho", "knihou", "knih", "knihám", "knihách", "knihami"]
+    },
+    {
+      "lemma": "ruka",
+      "category": "consonant-alternation",
+      "pattern": "žena",
+      "description": "hand - k/c alternation: ruka→ruce",
+      "difficulty": "hard",
+      "forms": ["ruka", "ruky", "ruce", "ruku", "ruko", "rukou", "rukou", "rukám", "rukách", "rukama"]
+    },
+    {
+      "lemma": "noha",
+      "category": "consonant-alternation",
+      "pattern": "žena",
+      "description": "leg - h/z alternation: noha→noze",
+      "difficulty": "hard",
+      "forms": ["noha", "nohy", "noze", "nohu", "noho", "nohou", "nohou", "nohám", "nohách", "nohama"]
+    },
+    {
+      "lemma": "moucha",
+      "category": "consonant-alternation",
+      "pattern": "žena",
+      "description": "fly - ch/š alternation: moucha→mouše",
+      "difficulty": "hard",
+      "forms": ["moucha", "mouchy", "mouše", "mouchu", "moucho", "mouchou", "much", "mouchám", "mouchách"]
+    },
+    {
+      "lemma": "střecha",
+      "category": "consonant-alternation",
+      "pattern": "žena",
+      "description": "roof - ch/š alternation",
+      "difficulty": "hard",
+      "forms": ["střecha", "střechy", "střeše", "střechu", "střecho", "střechou", "střech", "střechám", "střechách"]
+    },
+    {
+      "lemma": "město",
+      "category": "neuter",
+      "pattern": "město",
+      "description": "city - neuter noun",
+      "forms": ["město", "města", "městu", "městem", "měst", "městům", "městech", "městy"]
+    },
+    {
+      "lemma": "moře",
+      "category": "neuter",
+      "pattern": "moře",
+      "description": "sea - neuter soft declension",
+      "forms": ["moře", "moří", "mořím", "mořích", "moři"]
+    },
+    {
+      "lemma": "pole",
+      "category": "neuter",
+      "pattern": "moře",
+      "description": "field - neuter soft declension",
+      "forms": ["pole", "polí", "polím", "polích", "poli"]
+    },
+    {
+      "lemma": "kuře",
+      "category": "neuter-special",
+      "pattern": "kuře",
+      "description": "chicken - neuter with stem extension -et-",
+      "difficulty": "hard",
+      "forms": ["kuře", "kuřete", "kuřeti", "kuřetem", "kuřata", "kuřat", "kuřatům", "kuřatech", "kuřaty"]
+    },
+    {
+      "lemma": "dítě",
+      "category": "neuter-special",
+      "pattern": "kuře",
+      "description": "child - neuter with stem extension -ět-, suppletive plural",
+      "difficulty": "very-hard",
+      "forms": ["dítě", "dítěte", "dítěti", "dítětem", "děti", "dětí", "dětem", "dětech", "dětmi"]
+    },
+    {
+      "lemma": "člověk",
+      "category": "suppletive",
+      "pattern": "pán",
+      "description": "human - suppletive plural (člověk→lidé)",
+      "difficulty": "very-hard",
+      "forms": ["člověk", "člověka", "člověku", "člověkem", "lidé", "lidí", "lidem", "lidech", "lidmi"]
+    },
+    {
+      "lemma": "rok",
+      "category": "suppletive",
+      "pattern": "hrad",
+      "description": "year - suppletive plural (rok→roky/léta)",
+      "difficulty": "very-hard",
+      "forms": ["rok", "roku", "rokem", "roky", "roků", "rokům", "rocích", "léta", "let", "letům", "letech", "lety"]
+    },
+    {
+      "lemma": "oko",
+      "category": "dual",
+      "pattern": "město",
+      "description": "eye - special dual forms (oko→oči)",
+      "difficulty": "hard",
+      "forms": ["oko", "oka", "oku", "okem", "oči", "očí", "očím", "očích", "očima"]
+    },
+    {
+      "lemma": "ucho",
+      "category": "dual",
+      "pattern": "město",
+      "description": "ear - special dual forms (ucho→uši)",
+      "difficulty": "hard",
+      "forms": ["ucho", "ucha", "uchu", "uchem", "uši", "uší", "uším", "uších", "ušima"]
+    },
+    {
+      "lemma": "koleno",
+      "category": "dual",
+      "pattern": "město",
+      "description": "knee - dual forms",
+      "difficulty": "hard",
+      "forms": ["koleno", "kolena", "kolenu", "kolenem", "kolena", "kolen", "kolenům", "kolenech", "koleny"]
+    },
+    {
+      "lemma": "přítel",
+      "category": "masculine-animate",
+      "pattern": "muž",
+      "description": "friend - masculine animate with vowel changes",
+      "forms": ["přítel", "přítele", "příteli", "přítelem", "přátelé", "přátel", "přátelům", "přátelích", "přáteli"]
+    },
+    {
+      "lemma": "učitel",
+      "category": "masculine-animate",
+      "pattern": "muž",
+      "description": "teacher - masculine animate",
+      "forms": ["učitel", "učitele", "učiteli", "učitelem", "učitelé", "učitelů", "učitelům", "učitelích"]
+    },
+    {
+      "lemma": "soudce",
+      "category": "masculine-animate",
+      "pattern": "soudce",
+      "description": "judge - masculine animate soft",
+      "forms": ["soudce", "soudců", "soudcům", "soudcích", "soudci"]
+    },
+    {
+      "lemma": "dcera",
+      "category": "feminine-irregular",
+      "pattern": "žena",
+      "description": "daughter - feminine with vowel changes",
+      "difficulty": "hard",
+      "forms": ["dcera", "dcery", "dceři", "dceru", "dcerou", "dcer", "dcerám", "dcerách", "dcerami"]
+    },
+    {
+      "lemma": "matka",
+      "category": "feminine",
+      "pattern": "žena",
+      "description": "mother - feminine k/c alternation",
+      "forms": ["matka", "matky", "matce", "matku", "matkou", "matek", "matkám", "matkách", "matkami"]
+    },
+    {
+      "lemma": "žena",
+      "category": "feminine",
+      "pattern": "žena",
+      "description": "woman/wife - feminine base pattern",
+      "forms": ["žena", "ženy", "ženě", "ženu", "ženo", "ženou", "žen", "ženám", "ženách", "ženami"]
+    },
+    {
+      "lemma": "růže",
+      "category": "feminine-soft",
+      "pattern": "růže",
+      "description": "rose - feminine soft declension",
+      "forms": ["růže", "růží", "růžím", "růžích", "růži", "růžemi"]
+    },
+    {
+      "lemma": "kost",
+      "category": "feminine-i",
+      "pattern": "kost",
+      "description": "bone - feminine i-declension",
+      "forms": ["kost", "kosti", "kostí", "kostem", "kostech", "kostmi"]
+    }
+  ],
+  "adjectives": [
+    {
+      "lemma": "celkový",
+      "category": "hard",
+      "description": "total - hard adjective declension",
+      "forms": ["celkový", "celková", "celkové", "celkovém", "celkovému", "celkových", "celkovým", "celkovými", "celkovou"]
+    },
+    {
+      "lemma": "nový",
+      "category": "hard",
+      "description": "new - hard adjective",
+      "forms": ["nový", "nová", "nové", "novém", "novému", "nových", "novým", "novými", "novou", "noví"]
+    },
+    {
+      "lemma": "finanční",
+      "category": "soft",
+      "description": "financial - soft adjective (possessive-like)",
+      "forms": ["finanční", "finančním", "finančních", "finančními", "finančního", "finančnímu"]
+    },
+    {
+      "lemma": "daňový",
+      "category": "hard",
+      "description": "tax-related - hard adjective",
+      "forms": ["daňový", "daňová", "daňové", "daňovém", "daňových", "daňovým", "daňovou", "daňoví"]
+    },
+    {
+      "lemma": "jarní",
+      "category": "soft",
+      "description": "spring (adj) - soft adjective",
+      "forms": ["jarní", "jarním", "jarních", "jarními", "jarního", "jarnímu"]
+    },
+    {
+      "lemma": "mladý",
+      "category": "hard-with-comparative",
+      "description": "young - hard adjective with d/ď alternation in comparative",
+      "difficulty": "hard",
+      "forms": ["mladý", "mladá", "mladé", "mladém", "mladému", "mladých", "mladým", "mladší", "nejmladší"]
+    },
+    {
+      "lemma": "starý",
+      "category": "hard-with-comparative",
+      "description": "old - hard adjective with r/ř alternation in comparative",
+      "difficulty": "hard",
+      "forms": ["starý", "stará", "staré", "starém", "starému", "starých", "starým", "starší", "nejstarší"]
+    },
+    {
+      "lemma": "drahý",
+      "category": "hard-with-comparative",
+      "description": "expensive - hard adjective with h/ž alternation",
+      "difficulty": "hard",
+      "forms": ["drahý", "drahá", "drahé", "drahém", "drahému", "drahých", "drahým", "dražší", "nejdražší"]
+    },
+    {
+      "lemma": "dobrý",
+      "category": "suppletive-comparative",
+      "description": "good - suppletive comparative (dobrý→lepší)",
+      "difficulty": "very-hard",
+      "forms": ["dobrý", "dobrá", "dobré", "dobrém", "dobrému", "dobrých", "dobrým", "lepší", "nejlepší"]
+    },
+    {
+      "lemma": "špatný",
+      "category": "suppletive-comparative",
+      "description": "bad - suppletive comparative (špatný→horší)",
+      "difficulty": "very-hard",
+      "forms": ["špatný", "špatná", "špatné", "špatném", "špatných", "špatným", "horší", "nejhorší"]
+    },
+    {
+      "lemma": "velký",
+      "category": "suppletive-comparative",
+      "description": "big - suppletive comparative (velký→větší)",
+      "difficulty": "very-hard",
+      "forms": ["velký", "velká", "velké", "velkém", "velkému", "velkých", "velkým", "větší", "největší"]
+    },
+    {
+      "lemma": "malý",
+      "category": "suppletive-comparative",
+      "description": "small - suppletive comparative (malý→menší)",
+      "difficulty": "very-hard",
+      "forms": ["malý", "malá", "malé", "malém", "malému", "malých", "malým", "menší", "nejmenší"]
+    },
+    {
+      "lemma": "dlouhý",
+      "category": "hard-with-comparative",
+      "description": "long - suppletive comparative (dlouhý→delší)",
+      "difficulty": "very-hard",
+      "forms": ["dlouhý", "dlouhá", "dlouhé", "dlouhém", "dlouhému", "dlouhých", "dlouhým", "delší", "nejdelší"]
+    },
+    {
+      "lemma": "český",
+      "category": "nationality",
+      "description": "Czech - nationality adjective",
+      "forms": ["český", "česká", "české", "českém", "českému", "českých", "českým", "českou", "čeští"]
+    },
+    {
+      "lemma": "pražský",
+      "category": "derived",
+      "description": "Prague (adj) - derived from proper noun",
+      "forms": ["pražský", "pražská", "pražské", "pražském", "pražskému", "pražských", "pražským", "pražští"]
+    }
+  ],
+  "sampleTexts": [
+    {
+      "name": "invoice",
+      "text": "Faktura č. 2024001 Dodavatel ABC s.r.o. Odběratel XYZ a.s. Celková částka 12500 Kč Datum splatnosti 15.02.2024",
+      "expectedMinTokens": 5,
+      "expectedStemPrefixes": ["faktur", "dodav"]
+    },
+    {
+      "name": "legal-contract",
+      "text": "Smlouva o dílo uzavřená mezi dodavatelem a odběratelem. Předmětem smlouvy je dodávka zboží dle objednávky zákazníka.",
+      "expectedMinTokens": 8,
+      "expectedStemPrefixes": ["smlouv", "dodav", "objednávk"]
+    },
+    {
+      "name": "difficult-morphology",
+      "text": "Lidé viděli psy a lvy v městech. Děti hrály si s kuřaty. Oči a uši jsou důležité orgány člověka.",
+      "expectedMinTokens": 10,
+      "expectedStemPrefixes": []
+    },
+    {
+      "name": "business-report",
+      "text": "Celkové tržby za první čtvrtletí dosáhly rekordních hodnot. Zákazníci objednali více zboží než v předchozím roce.",
+      "expectedMinTokens": 8,
+      "expectedStemPrefixes": ["zákazn"]
+    }
+  ],
+  "speedTestWords": ["faktura", "platba", "dodavatel", "zákazník", "částka", "dokument", "smlouva", "objednávka", "zpracování", "údaje", "člověk", "kniha", "ruka", "město", "den", "služba", "účet", "daň", "zboží", "matka"],
+  "speedTestRepeat": 1000,
+  "knownLimitations": {
+    "description": "TK Stemmer (Snowball) uses suffix-stripping, which has known limitations for morphologically rich languages",
+    "expectedFailures": [
+      "Suppletive forms (člověk→lidé, rok→léta, dobrý→lepší)",
+      "Fleeting 'e' cases (pes→psa, orel→orla, vítr→větru)",
+      "Consonant alternations across cases (kniha→knize, ruka→ruce)",
+      "Dual number forms (oko→oči, ucho→uši)",
+      "Comparative/superlative adjective forms"
+    ],
+    "workarounds": [
+      "Use overall accuracy metric instead of strict consistency",
+      "Consider MorphoDiTa for applications requiring high accuracy",
+      "Combine stemming with synonym expansion for search"
+    ]
+  }
+}

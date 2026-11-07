@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.cassandragargoyle.portunix</groupId>
+		<artifactId>vim-parser-parent</artifactId>
+		<version>0.1.8-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>vim-parser-fulltext</artifactId>
+	<packaging>jar</packaging>
+
+	<name>Portunix VIM Parser - Fulltext Plugin</name>
+	<description>Text block extraction plugin using PDFBox</description>
+
+	<properties>
+		<plugin.id>fulltext-plugin</plugin.id>
+	</properties>
+
+	<dependencies>
+		<!-- CassandraGargoyle API for logging -->
+		<dependency>
+			<groupId>org.cassandragargoyle</groupId>
+			<artifactId>org-cassandragargoyle-api</artifactId>
+		</dependency>
+
+		<!-- VIM API module -->
+		<dependency>
+			<groupId>org.cassandragargoyle.portunix</groupId>
+			<artifactId>vim-parser-api</artifactId>
+		</dependency>
+
+		<!-- PDFBox for text extraction -->
+		<dependency>
+			<groupId>org.apache.pdfbox</groupId>
+			<artifactId>pdfbox</artifactId>
+		</dependency>
+
+		<!-- Apache Tika for metadata extraction -->
+		<dependency>
+			<groupId>org.apache.tika</groupId>
+			<artifactId>tika-core</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.tika</groupId>
+			<artifactId>tika-parsers-standard-package</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.tika</groupId>
+			<artifactId>tika-langdetect-optimaize</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+
+		<!-- Testing -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-api</artifactId>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<!-- Assembly Plugin for creating plugin ZIP -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<configuration>
+					<descriptors>
+						<descriptor>../src/assembly/plugin-zip.xml</descriptor>
+					</descriptors>
+					<finalName>${plugin.id}-${project.version}</finalName>
+					<appendAssemblyId>false</appendAssemblyId>
+				</configuration>
+				<executions>
+					<execution>
+						<id>make-plugin-zip</id>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

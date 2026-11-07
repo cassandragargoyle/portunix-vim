@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.cassandragargoyle.portunix</groupId>
+		<artifactId>vim-parser-parent</artifactId>
+		<version>0.1.8-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>vim-parser-api</artifactId>
+	<packaging>jar</packaging>
+
+	<name>Portunix VIM Parser - API</name>
+	<description>Plugin interfaces and shared models for VIM Parser</description>
+
+	<dependencies>
+		<!-- PF4J Plugin Framework -->
+		<dependency>
+			<groupId>org.pf4j</groupId>
+			<artifactId>pf4j</artifactId>
+		</dependency>
+
+		<!-- OpenTelemetry API (for Tracer propagation via PluginContext) -->
+		<dependency>
+			<groupId>io.opentelemetry</groupId>
+			<artifactId>opentelemetry-api</artifactId>
+		</dependency>
+
+		<!-- Jackson annotations only (minimal dependency) -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-annotations</artifactId>
+		</dependency>
+
+		<!-- Testing -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-api</artifactId>
+		</dependency>
+
+		<!-- Jackson databind for round-trip serialization tests -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- JSON Schema validator for contract schema tests -->
+		<dependency>
+			<groupId>com.networknt</groupId>
+			<artifactId>json-schema-validator</artifactId>
+			<version>1.5.9</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>

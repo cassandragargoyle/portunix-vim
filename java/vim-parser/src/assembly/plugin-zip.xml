@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly xmlns="http://maven.apache.org/ASSEMBLY/2.2.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/ASSEMBLY/2.2.0
+                              http://maven.apache.org/xsd/assembly-2.2.0.xsd">
+    <id>plugin</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+
+    <dependencySets>
+        <dependencySet>
+            <useProjectArtifact>true</useProjectArtifact>
+            <scope>runtime</scope>
+            <outputDirectory>lib</outputDirectory>
+            <excludes>
+                <!-- Exclude API module - provided by core -->
+                <exclude>org.cassandragargoyle.portunix:vim-parser-api</exclude>
+                <!-- Exclude PF4J - provided by core -->
+                <exclude>org.pf4j:pf4j</exclude>
+            </excludes>
+        </dependencySet>
+    </dependencySets>
+
+    <fileSets>
+        <fileSet>
+            <directory>src/main/resources</directory>
+            <outputDirectory>/</outputDirectory>
+            <includes>
+                <include>plugin.properties</include>
+            </includes>
+        </fileSet>
+        <!-- Own extension index on the classes path, which PF4J searches before lib/.
+             PF4J reads only the first index it finds and dependency JARs in lib/
+             may carry their own, in file system order -->
+        <fileSet>
+            <directory>${project.build.outputDirectory}/META-INF</directory>
+            <outputDirectory>classes/META-INF</outputDirectory>
+            <includes>
+                <include>extensions.idx</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+</assembly>

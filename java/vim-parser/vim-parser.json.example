@@ -1,0 +1,32 @@
+{
+  "execution": {
+    "defaultMode": "ASYNC_THREAD",
+    "threadPoolSize": 4,
+    "grpc": {
+      "enabled": false,
+      "portRange": "50051-50060",
+      "processTimeoutMs": 30000
+    }
+  },
+  "plugins": {
+    "fulltext": {
+      "enabled": true,
+      "mode": "SYNC",
+      "priority": 10
+    },
+    "barcode": {
+      "enabled": true,
+      "mode": "ASYNC_THREAD",
+      "priority": 20,
+      "options": {
+        "formats": "QR_CODE,DATA_MATRIX,PDF_417,AZTEC",
+        "dpi": "150"
+      }
+    },
+    "spayd": {
+      "enabled": true,
+      "mode": "SYNC",
+      "priority": 30
+    }
+  }
+}

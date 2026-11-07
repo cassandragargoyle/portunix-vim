@@ -1,0 +1,45 @@
+# Build and distribution output
+dist/
+
+# Java/Maven artifacts
+target/
+*.class
+.m2/
+java/vim-parser/vim-parser-core/dependency-reduced-pom.xml
+java/vim-parser/vim-parser-core/shared.mem
+java/vim-parser/vim-parser-core/nbproject/
+
+# Native and binary artifacts
+*.exe
+*.so
+*.dylib
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Go
+*.test
+coverage.out
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.swp
+*~
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local-only files
+NOTES.md
+CLAUDE.local.md
+.claude/settings.local.json
+.env*

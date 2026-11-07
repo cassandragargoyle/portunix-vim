@@ -1,0 +1,78 @@
+{
+  "name": "vim-parser",
+  "version": "0.1.8",
+  "description": "Layered Information Model parser - semantic extraction from documents",
+  "author": "CassandraGargoyle Team",
+  "license": "Apache-2.0",
+  "plugin": {
+    "type": "helper",
+    "binary": "vim-parser-0.1.8-SNAPSHOT.jar",
+    "runtime": "java",
+    "runtime_version": ">=21",
+    "jvm_args": ["-Xmx1g", "-Xms256m", "-Dlog4j2.StatusLogger.level=OFF"],
+    "interfaces": ["cli"]
+  },
+  "dependencies": {
+    "portunix_min_version": "1.10.0",
+    "os_support": ["linux", "windows", "darwin"],
+    "optional_tools": []
+  },
+  "ai_integration": {
+    "mcp_tools": [
+      {"name": "parse_document_layers", "description": "Parse document into layered information model"},
+      {"name": "extract_semantic_model", "description": "Extract semantic entities from document"},
+      {"name": "get_provenance", "description": "Get provenance and confidence for extracted data"}
+    ]
+  },
+  "permissions": {
+    "filesystem": ["read"],
+    "network": ["outbound"],
+    "level": "limited"
+  },
+  "commands": [
+    {
+      "name": "auto",
+      "description": "Automatic extraction using all available plugins",
+      "options": [
+        {"flag": "-o, --output", "description": "Output file"},
+        {"flag": "-w, --write", "description": "Write to sidecar file"},
+        {"flag": "--compact", "description": "Compact JSON output"},
+        {"flag": "--stemming", "description": "Enable stemming/lemmatization"},
+        {"flag": "--backend", "description": "Stemming backend (default: lucene)"},
+        {"flag": "--lang", "description": "Override language for stemming"},
+        {"flag": "-v, --verbose", "description": "Verbose output"}
+      ]
+    },
+    {
+      "name": "parse",
+      "description": "Parse document into VIM format (full processing)",
+      "subcommands": ["raw", "layout", "structure", "semantic", "full"]
+    },
+    {
+      "name": "extract-blocks",
+      "description": "Extract text blocks from PDF with spatial clustering",
+      "options": [
+        {"flag": "-o, --output", "description": "Output file"},
+        {"flag": "-w, --write", "description": "Write to sidecar file"},
+        {"flag": "--compact", "description": "Compact JSON output"},
+        {"flag": "-v, --verbose", "description": "Verbose output"}
+      ]
+    },
+    {
+      "name": "visualize",
+      "description": "Generate HTML visualization from VIM JSON output",
+      "options": [
+        {"flag": "-o, --output", "description": "Output HTML file"},
+        {"flag": "-w, --write", "description": "Write to sidecar file (.vim.html)"}
+      ]
+    },
+    {
+      "name": "plugins",
+      "description": "List available internal plugins and their status",
+      "options": [
+        {"flag": "--deps", "description": "Show plugin dependencies"},
+        {"flag": "--json", "description": "Output as JSON"}
+      ]
+    }
+  ]
+}

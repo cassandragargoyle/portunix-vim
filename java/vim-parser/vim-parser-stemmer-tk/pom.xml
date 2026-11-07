@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.cassandragargoyle.portunix</groupId>
+		<artifactId>vim-parser-parent</artifactId>
+		<version>0.1.8-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>vim-parser-stemmer-tk</artifactId>
+	<packaging>jar</packaging>
+
+	<name>Portunix VIM Parser - Stemmer TK</name>
+	<description>Java JNI wrapper for TK Stemmer C++ library - provides word stemming for 33 languages</description>
+
+	<dependencies>
+		<!-- Testing -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<includes>
+					<include>native/**</include>
+				</includes>
+			</resource>
+		</resources>
+	</build>
+</project>

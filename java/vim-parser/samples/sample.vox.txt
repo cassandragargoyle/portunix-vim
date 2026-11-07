@@ -1,0 +1,54 @@
+AI má schopnost zpřehlednit a ze­stručnit obrovské množství dat do formy okamžitě využitelné pro strategické rozhodování.
+
+AI se nachází v klíčovém bodě
+své evoluce. Z experimen­
+tální technologie, která fasci­
+novala především úzký okruh
+odborníků, se stala všudypřítomná
+realita proměňující způsob práce,
+komunikace i každodenního života.
+Po období prvotního nadšení
+z generativních nástrojů typu
+ChatGPT přichází fáze kritického
+zhodnocení skutečných možností
+i limitů této technologie. Zatímco
+některá původní očekávání se uká­
+zala jako přehnaná, jiné oblasti
+překonaly i ty nejodvážnější pre­
+dikce. Současně se AI stává před­
+mětem intenzivních debat o bez­
+pečnosti, etice a dlouhodobých
+dopadech na společnost.
+AI se stala strategickou
+prioritou
+Evropská unie razantně zvyšuje
+investice do výzkumu a vývoje AI
+technologií. V rámci programu
+Horizont Evropa plánuje Evropská
+komise navýšit roční investice na Technologická zralost
+více než tři miliardy eur. Tyto pro­současných systémů
+středky směřují nejen do základ­Současné AI systémy dosáhly pozo­
+ního výzkumu, ale především do ruhodné úrovně výkonnosti v řadě
+aplikovaných projektů s potenciá­specifických úloh. Velké jazykové zpřehlednit a ze­tradičních workflow. Systémy pro
+lem transformovat klíčové oblasti modely (LLM) dokážou generovat
+jako zdravotnictví, vědu nebo envi­koherentní text, překládat mezi stručnit obrovské mentů, kategorizaci e-mailů, gene­
+jazyky, odpovídat na komplexní
+ronmentální výzkum.
+Strategický přístup EU se zamě­dotazy a asistovat při programo­množství dat do
+řuje na několik pilířů. Prvním je vání. Multimodální modely kombi­
+budování robustní infrastruktury nují schopnost pracovat s textem, formy okamžitě
+pro trénování velkých modelů AI, obrazem, zvukem i videem, což ote­
+která by měla snížit závislost na vírá nové možnosti pro tvorbu využitelné pro gičtější úkoly.
+mimoevropských cloudových služ­obsahu a interakci s uživateli.
+bách. Druhým pilířem je systema­Přesto je třeba zdůraznit, že sou­strategické
+tická podpora vzdělávání nových časná AI stále operuje v rámci sta­
+odborníků v oblasti AI, protože tistických vzorů naučených z tréno- rozhodování.
+nedostatek kvalifikovaných pracov­vacích dat. Chybí jí skutečné
+níků představuje jeden z hlavních porozumění kontextu, kauzální
+limitů dalšího rozvoje a praktického uvažování a schopnost zobecňovat
+nasazování umělé inteligence. Tře­znalosti mimo rámec trénovacích
+tím klíčovým prvkem je vytváření dat způsobem, který je přirozený
+regulačního rámce, který by měl pro lidskou inteligenci. Tato ome­
+zajistit bezpečné a etické využívání zení se projevují v podobě tzv. halu­
+cinací, kdy AI s vysokou mírou
+AI technologií.

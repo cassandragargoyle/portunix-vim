@@ -1,0 +1,10 @@
+# Original non-anonymized files
+sample1.pdf
+sample1.pdf.vim.json
+sample1.pdf.md
+
+# Generated VIM outputs (keep source PDFs)
+*.vim.json
+*.vim.html
+
+books/*

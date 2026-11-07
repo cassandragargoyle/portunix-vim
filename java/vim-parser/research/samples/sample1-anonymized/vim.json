@@ -1,0 +1,4073 @@
+{
+  "vim_version" : "1.1",
+  "document" : {
+    "source" : "source.pdf",
+    "pages" : 6
+  },
+  "layers" : {
+    "physical" : {
+      "blocks" : [ {
+        "id" : "block_1",
+        "bbox" : {
+          "right" : 108.56228,
+          "bottom" : 174.6532,
+          "x" : 53.8583,
+          "y" : 122.891785,
+          "width" : 54.70398,
+          "height" : 51.761414
+        },
+        "page" : 1,
+        "text_elements" : [ {
+          "text" : "Zákazník",
+          "bbox" : {
+            "right" : 88.1783,
+            "bottom" : 126.891785,
+            "x" : 53.8583,
+            "y" : 122.891785,
+            "width" : 34.32,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Ing. Jan Novák",
+          "bbox" : {
+            "right" : 107.218285,
+            "bottom" : 141.01593,
+            "x" : 53.8583,
+            "y" : 136.39194,
+            "width" : 53.359985,
+            "height" : 4.624
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "Helvetica",
+          "confidence" : 1.0
+        }, {
+          "text" : "Hlavní 123/45",
+          "bbox" : {
+            "right" : 103.218285,
+            "bottom" : 154.17322,
+            "x" : 53.8583,
+            "y" : 149.54922,
+            "width" : 49.359985,
+            "height" : 4.624
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "Helvetica",
+          "confidence" : 1.0
+        }, {
+          "text" : "Vinohrady",
+          "bbox" : {
+            "right" : 89.87429,
+            "bottom" : 164.41321,
+            "x" : 53.8583,
+            "y" : 159.78922,
+            "width" : 36.01599,
+            "height" : 4.624
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "Helvetica",
+          "confidence" : 1.0
+        }, {
+          "text" : "120 00 Praha 2",
+          "bbox" : {
+            "right" : 108.56228,
+            "bottom" : 174.6532,
+            "x" : 53.8583,
+            "y" : 170.0292,
+            "width" : 54.70398,
+            "height" : 4.624
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "Helvetica",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_2",
+        "bbox" : {
+          "right" : 221.64005,
+          "bottom" : 248.95203,
+          "x" : 12.250053,
+          "y" : 196.85663,
+          "width" : 209.38998,
+          "height" : 52.095398
+        },
+        "page" : 1,
+        "text_elements" : [ {
+          "text" : "Váš účet",
+          "bbox" : {
+            "right" : 102.266304,
+            "bottom" : 202.85663,
+            "x" : 53.8583,
+            "y" : 196.85663,
+            "width" : 48.408005,
+            "height" : 6.0
+          },
+          "page" : 1,
+          "font_size" : 12.0,
+          "font_name" : "DEVEXP+URWFormExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "<BVT>XXXXSpXrXaXvuXjtXeX úXčeXt< oBnVliTne> na:  mujucet.bezdodavatele.cz",
+          "bbox" : {
+            "right" : 221.64005,
+            "bottom" : 224.68,
+            "x" : 12.250053,
+            "y" : 220.056,
+            "width" : 209.38998,
+            "height" : 4.624
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "Helvetica",
+          "confidence" : 1.0
+        }, {
+          "text" : "Přihlašovací jméno:  jan.novak@example.com",
+          "bbox" : {
+            "right" : 213.23999,
+            "bottom" : 238.39203,
+            "x" : 53.76,
+            "y" : 233.76804,
+            "width" : 159.48,
+            "height" : 4.624
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Zákaznické číslo:  123456789 0",
+          "bbox" : {
+            "right" : 158.43199,
+            "bottom" : 248.95203,
+            "x" : 53.76,
+            "y" : 244.32803,
+            "width" : 104.672,
+            "height" : 4.624
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_3",
+        "bbox" : {
+          "right" : 441.21594,
+          "bottom" : 432.494,
+          "x" : 53.76,
+          "y" : 290.67603,
+          "width" : 387.45593,
+          "height" : 141.81796
+        },
+        "page" : 1,
+        "text_elements" : [ {
+          "text" : "Řádné vyúčtování elektřiny č. 0000000001",
+          "bbox" : {
+            "right" : 266.564,
+            "bottom" : 296.67603,
+            "x" : 53.76,
+            "y" : 290.67603,
+            "width" : 212.804,
+            "height" : 6.0
+          },
+          "page" : 1,
+          "font_size" : 12.0,
+          "font_name" : "DEVEXP+URWFormExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Období:  1. 12. 2025 - 31. 12. 2025 Vystaveno:  21. 1. 2026 Odběrné místo:  8591824000000000 01",
+          "bbox" : {
+            "right" : 441.21594,
+            "bottom" : 320.71198,
+            "x" : 53.76,
+            "y" : 316.08798,
+            "width" : 387.45593,
+            "height" : 4.624
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Množství:  0,94200 MWh",
+          "bbox" : {
+            "right" : 132.65599,
+            "bottom" : 331.272,
+            "x" : 53.76,
+            "y" : 327.272,
+            "width" : 78.895996,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Položka",
+          "bbox" : {
+            "right" : 80.130295,
+            "bottom" : 351.0728,
+            "x" : 53.8583,
+            "y" : 347.0728,
+            "width" : 26.271996,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Dodávka energií",
+          "bbox" : {
+            "right" : 120.5582,
+            "bottom" : 365.8514,
+            "x" : 66.6142,
+            "y" : 361.8514,
+            "width" : 53.944,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond,Bold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Obchodní platby",
+          "bbox" : {
+            "right" : 121.426094,
+            "bottom" : 377.6274,
+            "x" : 70.8661,
+            "y" : 373.6274,
+            "width" : 50.559998,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "Regulované platby",
+          "bbox" : {
+            "right" : 127.94611,
+            "bottom" : 389.3674,
+            "x" : 70.8661,
+            "y" : 385.3674,
+            "width" : 57.080017,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "Vyúčtované zálohy",
+          "bbox" : {
+            "right" : 127.814186,
+            "bottom" : 404.138,
+            "x" : 66.6142,
+            "y" : 400.138,
+            "width" : 61.19999,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond,Bold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Výkup elektřiny",
+          "bbox" : {
+            "right" : 113.7101,
+            "bottom" : 415.914,
+            "x" : 66.6141,
+            "y" : 411.914,
+            "width" : 47.096,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "Výsledek vyúčtování                               ",
+          "bbox" : {
+            "right" : 183.2949,
+            "bottom" : 432.494,
+            "x" : 66.6148,
+            "y" : 428.494,
+            "width" : 116.68011,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond,Bold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_4",
+        "bbox" : {
+          "right" : 184.09479,
+          "bottom" : 590.8294,
+          "x" : 53.8576,
+          "y" : 529.5042,
+          "width" : 130.23718,
+          "height" : 61.325195
+        },
+        "page" : 1,
+        "text_elements" : [ {
+          "text" : "Zálohy na další období",
+          "bbox" : {
+            "right" : 184.09479,
+            "bottom" : 535.5042,
+            "x" : 53.8588,
+            "y" : 529.5042,
+            "width" : 130.236,
+            "height" : 6.0
+          },
+          "page" : 1,
+          "font_size" : 12.0,
+          "font_name" : "DEVEXP+URWFormExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Datum",
+          "bbox" : {
+            "right" : 76.4123,
+            "bottom" : 556.8687,
+            "x" : 53.8583,
+            "y" : 552.8687,
+            "width" : 22.554,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "splatnosti",
+          "bbox" : {
+            "right" : 87.391624,
+            "bottom" : 567.3407,
+            "x" : 53.8583,
+            "y" : 563.3407,
+            "width" : 33.533325,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "15. 1. 2026",
+          "bbox" : {
+            "right" : 88.321594,
+            "bottom" : 579.0893,
+            "x" : 53.8576,
+            "y" : 575.0893,
+            "width" : 34.463993,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "15. 2. 2026",
+          "bbox" : {
+            "right" : 88.321594,
+            "bottom" : 590.8294,
+            "x" : 53.8576,
+            "y" : 586.8294,
+            "width" : 34.463993,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_5",
+        "bbox" : {
+          "right" : 169.88,
+          "bottom" : 732.0213,
+          "x" : 53.8583,
+          "y" : 717.6053,
+          "width" : 116.021706,
+          "height" : 14.416016
+        },
+        "page" : 1,
+        "text_elements" : [ {
+          "text" : "ZměnaVaše nová výše měsíčních",
+          "bbox" : {
+            "right" : 169.88,
+            "bottom" : 721.6053,
+            "x" : 53.8583,
+            "y" : 717.6053,
+            "width" : 116.021706,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond,Bold",
+          "confidence" : 1.0
+        }, {
+          "text" : "záloh »záloh činí",
+          "bbox" : {
+            "right" : 117.47999,
+            "bottom" : 732.0213,
+            "x" : 53.8583,
+            "y" : 728.0213,
+            "width" : 63.62169,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond,Bold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_6",
+        "bbox" : {
+          "right" : 488.58026,
+          "bottom" : 817.4215,
+          "x" : 115.0192,
+          "y" : 814.1715,
+          "width" : 373.56107,
+          "height" : 3.25
+        },
+        "page" : 1,
+        "text_elements" : [ {
+          "text" : "bezDodavatele a.s. | Walterovo náměstí 329/3, Jinonice, 158 00 Praha 5 | IČ: 08934061 | DIČ: CZ08934061 | Zapsaná u MS v Praze, sp. zn.: B 25114",
+          "bbox" : {
+            "right" : 488.58026,
+            "bottom" : 817.4215,
+            "x" : 115.0192,
+            "y" : 814.1715,
+            "width" : 373.56107,
+            "height" : 3.25
+          },
+          "page" : 1,
+          "font_size" : 6.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_7",
+        "bbox" : {
+          "right" : 292.00385,
+          "bottom" : 590.8294,
+          "x" : 149.5,
+          "y" : 552.8687,
+          "width" : 142.50385,
+          "height" : 37.960693
+        },
+        "page" : 1,
+        "text_elements" : [ {
+          "text" : "ZálohovéCelkemDoplatit",
+          "bbox" : {
+            "right" : 291.95456,
+            "bottom" : 556.8687,
+            "x" : 149.5,
+            "y" : 552.8687,
+            "width" : 142.45456,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "obdobívč. DPHvč. DPH",
+          "bbox" : {
+            "right" : 292.00385,
+            "bottom" : 567.3407,
+            "x" : 156.75,
+            "y" : 563.3407,
+            "width" : 135.25385,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "01/20265 150,00 Kč140,00 Kč",
+          "bbox" : {
+            "right" : 291.96777,
+            "bottom" : 579.0893,
+            "x" : 153.1833,
+            "y" : 575.0893,
+            "width" : 138.78447,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "02/20264 580,00 Kč4 580,00 Kč",
+          "bbox" : {
+            "right" : 291.96774,
+            "bottom" : 590.8294,
+            "x" : 153.1833,
+            "y" : 586.8294,
+            "width" : 138.78444,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_8",
+        "bbox" : {
+          "right" : 372.46777,
+          "bottom" : 174.6532,
+          "x" : 317.7638,
+          "y" : 122.891785,
+          "width" : 54.70398,
+          "height" : 51.761414
+        },
+        "page" : 1,
+        "text_elements" : [ {
+          "text" : "Adresát",
+          "bbox" : {
+            "right" : 348.1478,
+            "bottom" : 126.891785,
+            "x" : 317.7638,
+            "y" : 122.891785,
+            "width" : 30.384003,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Ing. Jan Novák",
+          "bbox" : {
+            "right" : 371.12378,
+            "bottom" : 141.01593,
+            "x" : 317.7638,
+            "y" : 136.39194,
+            "width" : 53.359985,
+            "height" : 4.624
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "Helvetica",
+          "confidence" : 1.0
+        }, {
+          "text" : "Hlavní 123/45",
+          "bbox" : {
+            "right" : 367.12378,
+            "bottom" : 154.17322,
+            "x" : 317.7638,
+            "y" : 149.54922,
+            "width" : 49.359985,
+            "height" : 4.624
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "Helvetica",
+          "confidence" : 1.0
+        }, {
+          "text" : "Vinohrady",
+          "bbox" : {
+            "right" : 353.7798,
+            "bottom" : 164.41321,
+            "x" : 317.7638,
+            "y" : 159.78922,
+            "width" : 36.01599,
+            "height" : 4.624
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "Helvetica",
+          "confidence" : 1.0
+        }, {
+          "text" : "120 00 Prah9a 2",
+          "bbox" : {
+            "right" : 372.46777,
+            "bottom" : 174.6532,
+            "x" : 317.7638,
+            "y" : 170.0292,
+            "width" : 54.70398,
+            "height" : 4.624
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "Helvetica",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_9",
+        "bbox" : {
+          "right" : 547.0867,
+          "bottom" : 489.688,
+          "x" : 201.36,
+          "y" : 326.648,
+          "width" : 345.72668,
+          "height" : 163.03998
+        },
+        "page" : 1,
+        "text_elements" : [ {
+          "text" : "Splatnost:  4. 2. 2026 Adresa:  Kv·tná 42/7, Mladá Bolesla v",
+          "bbox" : {
+            "right" : 437.95197,
+            "bottom" : 331.272,
+            "x" : 201.36,
+            "y" : 326.648,
+            "width" : 236.59196,
+            "height" : 4.624
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Celkem bez DPHCelkem s DPH",
+          "bbox" : {
+            "right" : 439.3701,
+            "bottom" : 351.0728,
+            "x" : 298.1873,
+            "y" : 347.0728,
+            "width" : 141.1828,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "6 689,29 KčDoplatek",
+          "bbox" : {
+            "right" : 505.674,
+            "bottom" : 365.8794,
+            "x" : 402.4986,
+            "y" : 359.8794,
+            "width" : 103.175415,
+            "height" : 6.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "5 528,34 Kč",
+          "bbox" : {
+            "right" : 351.8196,
+            "bottom" : 365.8794,
+            "x" : 314.9477,
+            "y" : 361.8794,
+            "width" : 36.871918,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "3 002,53 Kč",
+          "bbox" : {
+            "right" : 351.81924,
+            "bottom" : 377.6274,
+            "x" : 315.8193,
+            "y" : 373.6274,
+            "width" : 35.99994,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "3 633,06 Kč",
+          "bbox" : {
+            "right" : 439.36993,
+            "bottom" : 377.6274,
+            "x" : 403.37,
+            "y" : 373.6274,
+            "width" : 35.99994,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "2 525,81 Kč",
+          "bbox" : {
+            "right" : 351.81924,
+            "bottom" : 389.3674,
+            "x" : 315.8193,
+            "y" : 385.3674,
+            "width" : 35.99994,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "3 056,23 Kč",
+          "bbox" : {
+            "right" : 439.36993,
+            "bottom" : 389.3674,
+            "x" : 403.37,
+            "y" : 385.3674,
+            "width" : 35.99994,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "Uhraďte prosím",
+          "bbox" : {
+            "right" : 547.0867,
+            "bottom" : 395.0769,
+            "x" : 479.7866,
+            "y" : 390.0769,
+            "width" : 67.30008,
+            "height" : 5.0
+          },
+          "page" : 1,
+          "font_size" : 10.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "-4 140,50 Kč-5 010,00 Kč",
+          "bbox" : {
+            "right" : 439.3705,
+            "bottom" : 404.166,
+            "x" : 311.9477,
+            "y" : 400.166,
+            "width" : 127.42282,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "-11,46 Kč1 667,83 Kč",
+          "bbox" : {
+            "right" : 546.96,
+            "bottom" : 415.914,
+            "x" : 410.2586,
+            "y" : 408.414,
+            "width" : 136.70142,
+            "height" : 7.5
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "1 667,83 Kč",
+          "bbox" : {
+            "right" : 439.3699,
+            "bottom" : 432.522,
+            "x" : 402.498,
+            "y" : 428.522,
+            "width" : 36.871918,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Údaje pro úhradu doplatku",
+          "bbox" : {
+            "right" : 425.52524,
+            "bottom" : 453.7875,
+            "x" : 321.7332,
+            "y" : 449.7875,
+            "width" : 103.79205,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Bankovní účet: 12 345 67 89/02700",
+          "bbox" : {
+            "right" : 435.36795,
+            "bottom" : 467.128,
+            "x" : 321.84,
+            "y" : 462.504,
+            "width" : 113.527954,
+            "height" : 4.624
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "Variabilní symbol: 0000000001",
+          "bbox" : {
+            "right" : 423.19998,
+            "bottom" : 478.408,
+            "x" : 321.84,
+            "y" : 473.784,
+            "width" : 101.359985,
+            "height" : 4.624
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "Datum splatnosti: 4. 2. 2026",
+          "bbox" : {
+            "right" : 409.34393,
+            "bottom" : 489.688,
+            "x" : 321.84,
+            "y" : 485.688,
+            "width" : 87.50394,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_10",
+        "bbox" : {
+          "right" : 446.82837,
+          "bottom" : 535.5042,
+          "x" : 317.4803,
+          "y" : 529.5042,
+          "width" : 129.34808,
+          "height" : 6.0
+        },
+        "page" : 1,
+        "text_elements" : [ {
+          "text" : "Jak jste šetřili přírodu?",
+          "bbox" : {
+            "right" : 446.82837,
+            "bottom" : 535.5042,
+            "x" : 317.4803,
+            "y" : 529.5042,
+            "width" : 129.34808,
+            "height" : 6.0
+          },
+          "page" : 1,
+          "font_size" : 12.0,
+          "font_name" : "DEVEXP+URWFormExtraBold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_11",
+        "bbox" : {
+          "right" : 545.24817,
+          "bottom" : 654.9773,
+          "x" : 329.296,
+          "y" : 620.67554,
+          "width" : 215.95218,
+          "height" : 34.301758
+        },
+        "page" : 1,
+        "text_elements" : [ {
+          "text" : "Vaše domáctnost ušetřila",
+          "bbox" : {
+            "right" : 406.85593,
+            "bottom" : 624.67554,
+            "x" : 329.296,
+            "y" : 620.67554,
+            "width" : 77.55994,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "to je jako byste zasadili",
+          "bbox" : {
+            "right" : 533.61145,
+            "bottom" : 624.67554,
+            "x" : 462.4196,
+            "y" : 620.67554,
+            "width" : 71.191864,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "483 kg CO₂",
+          "bbox" : {
+            "right" : 398.30417,
+            "bottom" : 640.11597,
+            "x" : 337.464,
+            "y" : 634.11597,
+            "width" : 60.84018,
+            "height" : 6.0
+          },
+          "page" : 1,
+          "font_size" : 12.0,
+          "font_name" : "DEVEXP+URWFormExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "22 plně vzrostlých",
+          "bbox" : {
+            "right" : 545.24817,
+            "bottom" : 640.11597,
+            "x" : 449.856,
+            "y" : 634.11597,
+            "width" : 95.39218,
+            "height" : 6.0
+          },
+          "page" : 1,
+          "font_size" : 12.0,
+          "font_name" : "DEVEXP+URWFormExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "stromů",
+          "bbox" : {
+            "right" : 516.1793,
+            "bottom" : 654.9773,
+            "x" : 478.6207,
+            "y" : 648.9773,
+            "width" : 37.558624,
+            "height" : 6.0
+          },
+          "page" : 1,
+          "font_size" : 12.0,
+          "font_name" : "DEVEXP+URWForm",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_12",
+        "bbox" : {
+          "right" : 453.1681,
+          "bottom" : 732.723,
+          "x" : 211.992,
+          "y" : 692.1497,
+          "width" : 241.17609,
+          "height" : 40.573303
+        },
+        "page" : 1,
+        "text_elements" : [ {
+          "text" : "Zkontrolujte si výši trvalého příkazu",
+          "bbox" : {
+            "right" : 452.85992,
+            "bottom" : 696.1497,
+            "x" : 317.7638,
+            "y" : 692.1497,
+            "width" : 135.09613,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Bankovní účet: 12 345 67 89/02700",
+          "bbox" : {
+            "right" : 431.28793,
+            "bottom" : 709.808,
+            "x" : 317.76,
+            "y" : 705.18396,
+            "width" : 113.52792,
+            "height" : 4.624
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "Variabilní symbol: 1234567890",
+          "bbox" : {
+            "right" : 419.12,
+            "bottom" : 721.088,
+            "x" : 317.76,
+            "y" : 716.464,
+            "width" : 101.359985,
+            "height" : 4.624
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "4 580 KčDatum splatnosti: dle předepsaných záloh",
+          "bbox" : {
+            "right" : 453.1681,
+            "bottom" : 732.723,
+            "x" : 211.992,
+            "y" : 722.223,
+            "width" : 241.17609,
+            "height" : 10.5
+          },
+          "page" : 1,
+          "font_size" : 21.0,
+          "font_name" : "DEVEXP+URWFormExtraBold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_13",
+        "bbox" : {
+          "right" : 559.8422,
+          "bottom" : 800.6555,
+          "x" : 548.6422,
+          "y" : 796.6555,
+          "width" : 11.200012,
+          "height" : 4.0
+        },
+        "page" : 1,
+        "text_elements" : [ {
+          "text" : "1/6",
+          "bbox" : {
+            "right" : 559.8422,
+            "bottom" : 800.6555,
+            "x" : 548.6422,
+            "y" : 796.6555,
+            "width" : 11.200012,
+            "height" : 4.0
+          },
+          "page" : 1,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_14",
+        "bbox" : {
+          "right" : 361.59683,
+          "bottom" : 825.8215,
+          "x" : 241.763,
+          "y" : 822.5715,
+          "width" : 119.83383,
+          "height" : 3.25
+        },
+        "page" : 1,
+        "text_elements" : [ {
+          "text" : "Poruchová linka distributora | ČEZ: 800 850 860",
+          "bbox" : {
+            "right" : 361.59683,
+            "bottom" : 825.8215,
+            "x" : 241.763,
+            "y" : 822.5715,
+            "width" : 119.83383,
+            "height" : 3.25
+          },
+          "page" : 1,
+          "font_size" : 6.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_1",
+        "bbox" : {
+          "right" : 302.19983,
+          "bottom" : 157.24933,
+          "x" : 53.76,
+          "y" : 78.99597,
+          "width" : 248.43983,
+          "height" : 78.25336
+        },
+        "page" : 2,
+        "text_elements" : [ {
+          "text" : "Přehled plateb – dle vyhlášky č. 207/2021 Sb.",
+          "bbox" : {
+            "right" : 302.19983,
+            "bottom" : 84.99597,
+            "x" : 53.76,
+            "y" : 78.99597,
+            "width" : 248.43983,
+            "height" : 6.0
+          },
+          "page" : 2,
+          "font_size" : 12.0,
+          "font_name" : "DEVEXP+URWFormExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Podrobný přehled",
+          "bbox" : {
+            "right" : 125.01419,
+            "bottom" : 107.4173,
+            "x" : 66.6142,
+            "y" : 103.4173,
+            "width" : 58.399994,
+            "height" : 4.0
+          },
+          "page" : 2,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond,Bold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Vysoký tarif",
+          "bbox" : {
+            "right" : 111.56397,
+            "bottom" : 121.33331,
+            "x" : 72.284,
+            "y" : 117.33331,
+            "width" : 39.279976,
+            "height" : 4.0
+          },
+          "page" : 2,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Nízký tarif",
+          "bbox" : {
+            "right" : 106.80399,
+            "bottom" : 133.3053,
+            "x" : 72.284,
+            "y" : 129.3053,
+            "width" : 34.519997,
+            "height" : 4.0
+          },
+          "page" : 2,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Délka období",
+          "bbox" : {
+            "right" : 116.65997,
+            "bottom" : 145.27728,
+            "x" : 72.284,
+            "y" : 141.27728,
+            "width" : 44.375977,
+            "height" : 4.0
+          },
+          "page" : 2,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Součet",
+          "bbox" : {
+            "right" : 94.9789,
+            "bottom" : 157.24933,
+            "x" : 72.2829,
+            "y" : 153.24933,
+            "width" : 22.696,
+            "height" : 4.0
+          },
+          "page" : 2,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_2",
+        "bbox" : {
+          "right" : 283.95206,
+          "bottom" : 191.12799,
+          "x" : 53.76,
+          "y" : 176.568,
+          "width" : 230.19206,
+          "height" : 14.559998
+        },
+        "page" : 2,
+        "text_elements" : [ {
+          "text" : "¹ Vypočítáno podílem částky celkem bez DPH a účtovaného množství.",
+          "bbox" : {
+            "right" : 265.27206,
+            "bottom" : 180.568,
+            "x" : 53.76,
+            "y" : 176.568,
+            "width" : 211.51207,
+            "height" : 4.0
+          },
+          "page" : 2,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond,Bold",
+          "confidence" : 1.0
+        }, {
+          "text" : "² Haléřový rozdíl (proti částce v rekapitulaci) je způsoben zaokrouhlováním",
+          "bbox" : {
+            "right" : 283.95206,
+            "bottom" : 191.12799,
+            "x" : 53.76,
+            "y" : 187.12799,
+            "width" : 230.19206,
+            "height" : 4.0
+          },
+          "page" : 2,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond,Bold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_3",
+        "bbox" : {
+          "right" : 488.58026,
+          "bottom" : 817.4215,
+          "x" : 115.0192,
+          "y" : 814.1715,
+          "width" : 373.56107,
+          "height" : 3.25
+        },
+        "page" : 2,
+        "text_elements" : [ {
+          "text" : "bezDodavatele a.s. | Walterovo náměstí 329/3, Jinonice, 158 00 Praha 5 | IČ: 08934061 | DIČ: CZ08934061 | Zapsaná u MS v Praze, sp. zn.: B 25114",
+          "bbox" : {
+            "right" : 488.58026,
+            "bottom" : 817.4215,
+            "x" : 115.0192,
+            "y" : 814.1715,
+            "width" : 373.56107,
+            "height" : 3.25
+          },
+          "page" : 2,
+          "font_size" : 6.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_4",
+        "bbox" : {
+          "right" : 555.59064,
+          "bottom" : 145.28528,
+          "x" : 210.96,
+          "y" : 103.4173,
+          "width" : 344.6306,
+          "height" : 41.86798
+        },
+        "page" : 2,
+        "text_elements" : [ {
+          "text" : "MnožstvíPrůměrná jednotková cena bez DPH¹Celkem bez DPHCelkem s DPH²",
+          "bbox" : {
+            "right" : 555.59064,
+            "bottom" : 107.4173,
+            "x" : 218.2877,
+            "y" : 103.4173,
+            "width" : 337.30292,
+            "height" : 4.0
+          },
+          "page" : 2,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "693,00 kWh",
+          "bbox" : {
+            "right" : 248.03204,
+            "bottom" : 121.34131,
+            "x" : 210.96,
+            "y" : 117.34131,
+            "width" : 37.072037,
+            "height" : 4.0
+          },
+          "page" : 2,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "249,00 kWh",
+          "bbox" : {
+            "right" : 248.03204,
+            "bottom" : 133.3133,
+            "x" : 210.96,
+            "y" : 129.3133,
+            "width" : 37.072037,
+            "height" : 4.0
+          },
+          "page" : 2,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "1,00 měsíc",
+          "bbox" : {
+            "right" : 248.03203,
+            "bottom" : 145.28528,
+            "x" : 215.016,
+            "y" : 141.28528,
+            "width" : 33.01602,
+            "height" : 4.0
+          },
+          "page" : 2,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_5",
+        "bbox" : {
+          "right" : 361.59683,
+          "bottom" : 825.8215,
+          "x" : 241.763,
+          "y" : 822.5715,
+          "width" : 119.83383,
+          "height" : 3.25
+        },
+        "page" : 2,
+        "text_elements" : [ {
+          "text" : "Poruchová linka distributora | ČEZ: 800 850 860",
+          "bbox" : {
+            "right" : 361.59683,
+            "bottom" : 825.8215,
+            "x" : 241.763,
+            "y" : 822.5715,
+            "width" : 119.83383,
+            "height" : 3.25
+          },
+          "page" : 2,
+          "font_size" : 6.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_6",
+        "bbox" : {
+          "right" : 555.5905,
+          "bottom" : 157.24933,
+          "x" : 338.1643,
+          "y" : 117.34131,
+          "width" : 217.42621,
+          "height" : 39.90802
+        },
+        "page" : 2,
+        "text_elements" : [ {
+          "text" : "6,01 Kč/kWh4 165,74 Kč5 040,55 Kč",
+          "bbox" : {
+            "right" : 555.5905,
+            "bottom" : 121.34131,
+            "x" : 349.7243,
+            "y" : 117.34131,
+            "width" : 205.86621,
+            "height" : 4.0
+          },
+          "page" : 2,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "3,95 Kč/kWh",
+          "bbox" : {
+            "right" : 389.76428,
+            "bottom" : 133.3133,
+            "x" : 349.7243,
+            "y" : 129.3133,
+            "width" : 40.039978,
+            "height" : 4.0
+          },
+          "page" : 2,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "983,57 Kč1 190,12 Kč",
+          "bbox" : {
+            "right" : 555.5905,
+            "bottom" : 133.3133,
+            "x" : 444.3396,
+            "y" : 129.3133,
+            "width" : 111.250916,
+            "height" : 4.0
+          },
+          "page" : 2,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "379,03 Kč/měsíc",
+          "bbox" : {
+            "right" : 389.76425,
+            "bottom" : 145.28528,
+            "x" : 338.1643,
+            "y" : 141.28528,
+            "width" : 51.599945,
+            "height" : 4.0
+          },
+          "page" : 2,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "379,03 Kč",
+          "bbox" : {
+            "right" : 474.80356,
+            "bottom" : 145.28528,
+            "x" : 444.3396,
+            "y" : 141.28528,
+            "width" : 30.463959,
+            "height" : 4.0
+          },
+          "page" : 2,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "458,63 Kč",
+          "bbox" : {
+            "right" : 555.5905,
+            "bottom" : 145.28528,
+            "x" : 525.1265,
+            "y" : 141.28528,
+            "width" : 30.46399,
+            "height" : 4.0
+          },
+          "page" : 2,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "5 528,34 Kč6 689,30 Kč",
+          "bbox" : {
+            "right" : 555.58936,
+            "bottom" : 157.24933,
+            "x" : 437.9305,
+            "y" : 153.24933,
+            "width" : 117.658844,
+            "height" : 4.0
+          },
+          "page" : 2,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_7",
+        "bbox" : {
+          "right" : 559.8422,
+          "bottom" : 800.6555,
+          "x" : 548.6422,
+          "y" : 796.6555,
+          "width" : 11.200012,
+          "height" : 4.0
+        },
+        "page" : 2,
+        "text_elements" : [ {
+          "text" : "2/6",
+          "bbox" : {
+            "right" : 559.8422,
+            "bottom" : 800.6555,
+            "x" : 548.6422,
+            "y" : 796.6555,
+            "width" : 11.200012,
+            "height" : 4.0
+          },
+          "page" : 2,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_1",
+        "bbox" : {
+          "right" : 411.42,
+          "bottom" : 110.49933,
+          "x" : 53.76,
+          "y" : 52.116028,
+          "width" : 357.66,
+          "height" : 58.3833
+        },
+        "page" : 3,
+        "text_elements" : [ {
+          "text" : "Spotřeba elektřiny - detail odběrného místa - EAN 859182400000000001",
+          "bbox" : {
+            "right" : 411.42,
+            "bottom" : 58.116028,
+            "x" : 53.76,
+            "y" : 52.116028,
+            "width" : 357.66,
+            "height" : 6.0
+          },
+          "page" : 3,
+          "font_size" : 12.0,
+          "font_name" : "DEVEXP+URWFormExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Adresa:  Mladá Bolesla,vKv·tná 42/7",
+          "bbox" : {
+            "right" : 176.41599,
+            "bottom" : 80.711975,
+            "x" : 53.76,
+            "y" : 76.087975,
+            "width" : 122.65599,
+            "height" : 4.624
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Platnost smlouvy:  Výpovědní lhůta 1 měsíc počíná běžet 1. dnem následujícího měsíce po doručení výpovědi.",
+          "bbox" : {
+            "right" : 393.256,
+            "bottom" : 91.27197,
+            "x" : 53.76,
+            "y" : 87.27197,
+            "width" : 339.496,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Dodané množství pro období",
+          "bbox" : {
+            "right" : 156.30621,
+            "bottom" : 110.49933,
+            "x" : 62.3622,
+            "y" : 106.49933,
+            "width" : 93.944016,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond,Bold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_2",
+        "bbox" : {
+          "right" : 555.59033,
+          "bottom" : 160.7251,
+          "x" : 70.866,
+          "y" : 129.94641,
+          "width" : 484.72433,
+          "height" : 30.778687
+        },
+        "page" : 3,
+        "text_elements" : [ {
+          "text" : "1. 12. 2025 - 31. 12. 202584507389VT2141822111D51693,000693,000,69300",
+          "bbox" : {
+            "right" : 555.59033,
+            "bottom" : 133.94641,
+            "x" : 70.866,
+            "y" : 129.94641,
+            "width" : 484.72433,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "1. 12. 2025 - 31. 12. 202584507389NT1210612355D51249,000249,000,24900",
+          "bbox" : {
+            "right" : 555.59033,
+            "bottom" : 145.9184,
+            "x" : 70.866,
+            "y" : 141.9184,
+            "width" : 484.72433,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Součet",
+          "bbox" : {
+            "right" : 93.562096,
+            "bottom" : 160.7251,
+            "x" : 70.8661,
+            "y" : 156.7251,
+            "width" : 22.696,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_3",
+        "bbox" : {
+          "right" : 210.31201,
+          "bottom" : 186.07202,
+          "x" : 62.4,
+          "y" : 182.07202,
+          "width" : 147.91202,
+          "height" : 4.0
+        },
+        "page" : 3,
+        "text_elements" : [ {
+          "text" : "Způsob odečtu (ZO):  D – odečet distributorem",
+          "bbox" : {
+            "right" : 210.31201,
+            "bottom" : 186.07202,
+            "x" : 62.4,
+            "y" : 182.07202,
+            "width" : 147.91202,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_4",
+        "bbox" : {
+          "right" : 198.61617,
+          "bottom" : 246.276,
+          "x" : 53.76,
+          "y" : 240.276,
+          "width" : 144.85617,
+          "height" : 6.0
+        },
+        "page" : 3,
+        "text_elements" : [ {
+          "text" : "Dodávka elektřiny - detail",
+          "bbox" : {
+            "right" : 198.61617,
+            "bottom" : 246.276,
+            "x" : 53.76,
+            "y" : 240.276,
+            "width" : 144.85617,
+            "height" : 6.0
+          },
+          "page" : 3,
+          "font_size" : 12.0,
+          "font_name" : "DEVEXP+URWFormExtraBold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_5",
+        "bbox" : {
+          "right" : 116.194214,
+          "bottom" : 285.81,
+          "x" : 62.3622,
+          "y" : 281.81,
+          "width" : 53.832012,
+          "height" : 4.0
+        },
+        "page" : 3,
+        "text_elements" : [ {
+          "text" : "Obchodní platby",
+          "bbox" : {
+            "right" : 116.194214,
+            "bottom" : 285.81,
+            "x" : 62.3622,
+            "y" : 281.81,
+            "width" : 53.832012,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond,Bold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_6",
+        "bbox" : {
+          "right" : 198.04489,
+          "bottom" : 371.4978,
+          "x" : 73.7008,
+          "y" : 305.4992,
+          "width" : 124.34409,
+          "height" : 65.9986
+        },
+        "page" : 3,
+        "text_elements" : [ {
+          "text" : "Období: od 1. 12. 2025 do 31. 12. 2025",
+          "bbox" : {
+            "right" : 198.04489,
+            "bottom" : 309.4992,
+            "x" : 73.7008,
+            "y" : 305.4992,
+            "width" : 124.34409,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Název produktu: EL | D | Spot | 2T",
+          "bbox" : {
+            "right" : 187.06084,
+            "bottom" : 321.4712,
+            "x" : 73.7008,
+            "y" : 317.4712,
+            "width" : 113.36004,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Stálý plat",
+          "bbox" : {
+            "right" : 111.04461,
+            "bottom" : 333.9691,
+            "x" : 82.2046,
+            "y" : 329.9691,
+            "width" : 28.840012,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "Cena za služby obchodu",
+          "bbox" : {
+            "right" : 155.86858,
+            "bottom" : 345.7092,
+            "x" : 82.2046,
+            "y" : 341.7092,
+            "width" : 73.66398,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "Cena za silovou elektřinu",
+          "bbox" : {
+            "right" : 158.8846,
+            "bottom" : 357.4492,
+            "x" : 82.2046,
+            "y" : 353.4492,
+            "width" : 76.68,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "Součet za toto období",
+          "bbox" : {
+            "right" : 154.67668,
+            "bottom" : 371.4978,
+            "x" : 82.2047,
+            "y" : 367.4978,
+            "width" : 72.471985,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_7",
+        "bbox" : {
+          "right" : 123.554214,
+          "bottom" : 404.0011,
+          "x" : 62.3622,
+          "y" : 400.0011,
+          "width" : 61.192013,
+          "height" : 4.0
+        },
+        "page" : 3,
+        "text_elements" : [ {
+          "text" : "Regulované platby",
+          "bbox" : {
+            "right" : 123.554214,
+            "bottom" : 404.0011,
+            "x" : 62.3622,
+            "y" : 400.0011,
+            "width" : 61.192013,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond,Bold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_8",
+        "bbox" : {
+          "right" : 206.71658,
+          "bottom" : 524.6769,
+          "x" : 73.7008,
+          "y" : 423.6903,
+          "width" : 133.01578,
+          "height" : 100.98657
+        },
+        "page" : 3,
+        "text_elements" : [ {
+          "text" : "Období: od 1. 12. 2025 do 31. 12. 2025",
+          "bbox" : {
+            "right" : 198.04489,
+            "bottom" : 427.6903,
+            "x" : 73.7008,
+            "y" : 423.6903,
+            "width" : 124.34409,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Distribuované množství elektřiny NT",
+          "bbox" : {
+            "right" : 192.74864,
+            "bottom" : 440.1883,
+            "x" : 82.2046,
+            "y" : 436.1883,
+            "width" : 110.544044,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "Distribuované množství elektřiny VT",
+          "bbox" : {
+            "right" : 191.94864,
+            "bottom" : 451.9283,
+            "x" : 82.2046,
+            "y" : 447.9283,
+            "width" : 109.74404,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "Měsíční plat za příkon - jistič",
+          "bbox" : {
+            "right" : 169.34862,
+            "bottom" : 463.6683,
+            "x" : 82.2046,
+            "y" : 459.6683,
+            "width" : 87.14402,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "Cena za provoz nesíťové infrastruktury",
+          "bbox" : {
+            "right" : 200.9006,
+            "bottom" : 475.4083,
+            "x" : 82.2046,
+            "y" : 471.4083,
+            "width" : 118.69601,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "Cena na podporu výkupu elektřiny (OZE)",
+          "bbox" : {
+            "right" : 206.71657,
+            "bottom" : 487.1483,
+            "x" : 82.2046,
+            "y" : 483.1483,
+            "width" : 124.51197,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "Daň z elektřiny",
+          "bbox" : {
+            "right" : 128.28459,
+            "bottom" : 498.8883,
+            "x" : 82.2046,
+            "y" : 494.8883,
+            "width" : 46.079994,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "Systémové služby ČEPS, a.s.",
+          "bbox" : {
+            "right" : 167.54863,
+            "bottom" : 510.6282,
+            "x" : 82.2046,
+            "y" : 506.6282,
+            "width" : 85.34403,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "Součet za toto období",
+          "bbox" : {
+            "right" : 154.67668,
+            "bottom" : 524.6769,
+            "x" : 82.2047,
+            "y" : 520.6769,
+            "width" : 72.471985,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_9",
+        "bbox" : {
+          "right" : 561.2526,
+          "bottom" : 827.736,
+          "x" : 42.5197,
+          "y" : 815.276,
+          "width" : 518.7329,
+          "height" : 12.460022
+        },
+        "page" : 3,
+        "text_elements" : [ {
+          "text" : "Výpočet částky na podporu výkupu elektřiny (OZE) – dle §28 odst. 5 a 6 zákona č. 165/2012 Sb. je vyúčtována nižší hodnota z následujících dvoumetodických výpočtů, přičemž metoda B zároveň",
+          "bbox" : {
+            "right" : 561.2526,
+            "bottom" : 818.776,
+            "x" : 42.5197,
+            "y" : 815.276,
+            "width" : 518.7329,
+            "height" : 3.5
+          },
+          "page" : 3,
+          "font_size" : 7.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "určuje maximální možnou platbu za fakturované období: A: (počet fází jističe) × (proudová hodnota jističe [A]) × (počet měsíců) × (jednotková cena) | B: (spotřeba [MWh]) × (jednotková cena)",
+          "bbox" : {
+            "right" : 558.99866,
+            "bottom" : 827.736,
+            "x" : 42.5197,
+            "y" : 824.236,
+            "width" : 516.47894,
+            "height" : 3.5
+          },
+          "page" : 3,
+          "font_size" : 7.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_10",
+        "bbox" : {
+          "right" : 555.59064,
+          "bottom" : 122.14929,
+          "x" : 168.5252,
+          "y" : 107.936584,
+          "width" : 387.06543,
+          "height" : 14.2127075
+        },
+        "page" : 3,
+        "text_elements" : [ {
+          "text" : "Stav měřidla",
+          "bbox" : {
+            "right" : 283.44476,
+            "bottom" : 111.936584,
+            "x" : 240.9647,
+            "y" : 107.936584,
+            "width" : 42.480057,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "MěřidloTarifPočátečníKoncovýZOTDDNásobitelkWhkWhv kWhv MWh",
+          "bbox" : {
+            "right" : 555.59064,
+            "bottom" : 122.14929,
+            "x" : 168.5252,
+            "y" : 118.14929,
+            "width" : 387.06543,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_11",
+        "bbox" : {
+          "right" : 470.55118,
+          "bottom" : 285.838,
+          "x" : 239.3408,
+          "y" : 281.838,
+          "width" : 231.21037,
+          "height" : 4.0
+        },
+        "page" : 3,
+        "text_elements" : [ {
+          "text" : "SazbaMnožstvíJednotkaZa jedn. bez DPHCelkem bez DPH",
+          "bbox" : {
+            "right" : 470.55118,
+            "bottom" : 285.838,
+            "x" : 239.3408,
+            "y" : 281.838,
+            "width" : 231.21037,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_12",
+        "bbox" : {
+          "right" : 470.55106,
+          "bottom" : 357.4492,
+          "x" : 238.2981,
+          "y" : 329.9691,
+          "width" : 232.25296,
+          "height" : 27.480103
+        },
+        "page" : 3,
+        "text_elements" : [ {
+          "text" : "D25d31,00000den4,18000 Kč129,58 Kč",
+          "bbox" : {
+            "right" : 470.55106,
+            "bottom" : 333.9691,
+            "x" : 238.2981,
+            "y" : 329.9691,
+            "width" : 232.25296,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "D25d0,94200MWh450,00000 Kč423,90 Kč",
+          "bbox" : {
+            "right" : 470.55106,
+            "bottom" : 345.7092,
+            "x" : 238.2981,
+            "y" : 341.7092,
+            "width" : 232.25296,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "D25d0,94200MWh2 599,84260 Kč2 449,05 Kč",
+          "bbox" : {
+            "right" : 470.55103,
+            "bottom" : 357.4492,
+            "x" : 238.2981,
+            "y" : 353.4492,
+            "width" : 232.25293,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_13",
+        "bbox" : {
+          "right" : 470.55118,
+          "bottom" : 404.0291,
+          "x" : 240.8608,
+          "y" : 400.0291,
+          "width" : 229.69038,
+          "height" : 4.0
+        },
+        "page" : 3,
+        "text_elements" : [ {
+          "text" : "JističMnožstvíJednotkaZa jedn. bez DPHCelkem bez DPH",
+          "bbox" : {
+            "right" : 470.55118,
+            "bottom" : 404.0291,
+            "x" : 240.8608,
+            "y" : 400.0291,
+            "width" : 229.69038,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_14",
+        "bbox" : {
+          "right" : 470.55106,
+          "bottom" : 463.6683,
+          "x" : 238.8061,
+          "y" : 459.6683,
+          "width" : 231.74495,
+          "height" : 4.0
+        },
+        "page" : 3,
+        "text_elements" : [ {
+          "text" : "3×251,00000měsíc237,00000 Kč237,00 Kč",
+          "bbox" : {
+            "right" : 470.55106,
+            "bottom" : 463.6683,
+            "x" : 238.8061,
+            "y" : 459.6683,
+            "width" : 231.74495,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_15",
+        "bbox" : {
+          "right" : 555.5906,
+          "bottom" : 111.936584,
+          "x" : 390.9096,
+          "y" : 107.936584,
+          "width" : 164.68097,
+          "height" : 4.0
+        },
+        "page" : 3,
+        "text_elements" : [ {
+          "text" : "SpotřebaKorekceSpotřeba v období",
+          "bbox" : {
+            "right" : 555.5906,
+            "bottom" : 111.936584,
+            "x" : 390.9096,
+            "y" : 107.936584,
+            "width" : 164.68097,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_16",
+        "bbox" : {
+          "right" : 555.59045,
+          "bottom" : 160.7251,
+          "x" : 491.9315,
+          "y" : 156.7251,
+          "width" : 63.658966,
+          "height" : 4.0
+        },
+        "page" : 3,
+        "text_elements" : [ {
+          "text" : "942,000,94200",
+          "bbox" : {
+            "right" : 555.59045,
+            "bottom" : 160.7251,
+            "x" : 491.9315,
+            "y" : 156.7251,
+            "width" : 63.658966,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_17",
+        "bbox" : {
+          "right" : 555.6,
+          "bottom" : 246.276,
+          "x" : 443.772,
+          "y" : 240.276,
+          "width" : 111.82797,
+          "height" : 6.0
+        },
+        "page" : 3,
+        "text_elements" : [ {
+          "text" : "5 528,34 Kč bez DPH",
+          "bbox" : {
+            "right" : 555.6,
+            "bottom" : 246.276,
+            "x" : 443.772,
+            "y" : 240.276,
+            "width" : 111.82797,
+            "height" : 6.0
+          },
+          "page" : 3,
+          "font_size" : 12.0,
+          "font_name" : "DEVEXP+URWFormExtraBold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_18",
+        "bbox" : {
+          "right" : 537.9773,
+          "bottom" : 294.37927,
+          "x" : 483.3074,
+          "y" : 273.602,
+          "width" : 54.66989,
+          "height" : 20.777283
+        },
+        "page" : 3,
+        "text_elements" : [ {
+          "text" : "Obchodní",
+          "bbox" : {
+            "right" : 537.9773,
+            "bottom" : 279.602,
+            "x" : 483.3074,
+            "y" : 273.602,
+            "width" : 54.66989,
+            "height" : 6.0
+          },
+          "page" : 3,
+          "font_size" : 12.0,
+          "font_name" : "DEVEXP+URWForm,Bold",
+          "confidence" : 1.0
+        }, {
+          "text" : "platby",
+          "bbox" : {
+            "right" : 518.0515,
+            "bottom" : 294.37927,
+            "x" : 483.3074,
+            "y" : 288.37927,
+            "width" : 34.74411,
+            "height" : 6.0
+          },
+          "page" : 3,
+          "font_size" : 12.0,
+          "font_name" : "DEVEXP+URWForm,Bold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_19",
+        "bbox" : {
+          "right" : 555.59094,
+          "bottom" : 371.4978,
+          "x" : 433.6791,
+          "y" : 366.4978,
+          "width" : 121.911835,
+          "height" : 5.0
+        },
+        "page" : 3,
+        "text_elements" : [ {
+          "text" : "3 002,53 Kč3 002,53 Kč",
+          "bbox" : {
+            "right" : 555.59094,
+            "bottom" : 371.4978,
+            "x" : 433.6791,
+            "y" : 366.4978,
+            "width" : 121.911835,
+            "height" : 5.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_20",
+        "bbox" : {
+          "right" : 547.62964,
+          "bottom" : 412.5704,
+          "x" : 483.3074,
+          "y" : 391.7931,
+          "width" : 64.322235,
+          "height" : 20.777313
+        },
+        "page" : 3,
+        "text_elements" : [ {
+          "text" : "Regulované",
+          "bbox" : {
+            "right" : 547.62964,
+            "bottom" : 397.7931,
+            "x" : 483.3074,
+            "y" : 391.7931,
+            "width" : 64.322235,
+            "height" : 6.0
+          },
+          "page" : 3,
+          "font_size" : 12.0,
+          "font_name" : "DEVEXP+URWForm,Bold",
+          "confidence" : 1.0
+        }, {
+          "text" : "platby",
+          "bbox" : {
+            "right" : 518.0515,
+            "bottom" : 412.5704,
+            "x" : 483.3074,
+            "y" : 406.5704,
+            "width" : 34.74411,
+            "height" : 6.0
+          },
+          "page" : 3,
+          "font_size" : 12.0,
+          "font_name" : "DEVEXP+URWForm,Bold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_21",
+        "bbox" : {
+          "right" : 470.55106,
+          "bottom" : 451.9283,
+          "x" : 285.0416,
+          "y" : 436.1883,
+          "width" : 185.50946,
+          "height" : 15.740021
+        },
+        "page" : 3,
+        "text_elements" : [ {
+          "text" : "0,24900MWh206,00000 Kč51,29 Kč",
+          "bbox" : {
+            "right" : 470.55106,
+            "bottom" : 440.1883,
+            "x" : 285.0416,
+            "y" : 436.1883,
+            "width" : 185.50946,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "0,69300MWh2 267,11000 Kč1 571,11 Kč",
+          "bbox" : {
+            "right" : 470.55103,
+            "bottom" : 451.9283,
+            "x" : 285.0416,
+            "y" : 447.9283,
+            "width" : 185.50943,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_22",
+        "bbox" : {
+          "right" : 555.59094,
+          "bottom" : 524.6769,
+          "x" : 285.0416,
+          "y" : 471.4083,
+          "width" : 270.54935,
+          "height" : 53.268585
+        },
+        "page" : 3,
+        "text_elements" : [ {
+          "text" : "1,00000měsíc12,45000 Kč12,45 Kč",
+          "bbox" : {
+            "right" : 470.55106,
+            "bottom" : 475.4083,
+            "x" : 285.0416,
+            "y" : 471.4083,
+            "width" : 185.50946,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "0,94200MWh495,00000 Kč466,29 Kč",
+          "bbox" : {
+            "right" : 470.55106,
+            "bottom" : 487.1483,
+            "x" : 285.0416,
+            "y" : 483.1483,
+            "width" : 185.50946,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "0,94200MWh28,30000 Kč26,66 Kč",
+          "bbox" : {
+            "right" : 470.55106,
+            "bottom" : 498.8883,
+            "x" : 285.0416,
+            "y" : 494.8883,
+            "width" : 185.50946,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "0,94200MWh170,92000 Kč161,01 Kč",
+          "bbox" : {
+            "right" : 470.55106,
+            "bottom" : 510.6282,
+            "x" : 285.0416,
+            "y" : 506.6282,
+            "width" : 185.50946,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "2 525,81 Kč2 525,81 Kč",
+          "bbox" : {
+            "right" : 555.59094,
+            "bottom" : 524.6769,
+            "x" : 433.6791,
+            "y" : 519.6769,
+            "width" : 121.911835,
+            "height" : 5.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_23",
+        "bbox" : {
+          "right" : 559.8425,
+          "bottom" : 803.9154,
+          "x" : 548.6425,
+          "y" : 799.9154,
+          "width" : 11.200012,
+          "height" : 4.0
+        },
+        "page" : 3,
+        "text_elements" : [ {
+          "text" : "3/6",
+          "bbox" : {
+            "right" : 559.8425,
+            "bottom" : 803.9154,
+            "x" : 548.6425,
+            "y" : 799.9154,
+            "width" : 11.200012,
+            "height" : 4.0
+          },
+          "page" : 3,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_1",
+        "bbox" : {
+          "right" : 243.01617,
+          "bottom" : 86.435974,
+          "x" : 53.76,
+          "y" : 80.435974,
+          "width" : 189.25618,
+          "height" : 6.0
+        },
+        "page" : 4,
+        "text_elements" : [ {
+          "text" : "Další fakturované položky - detail",
+          "bbox" : {
+            "right" : 243.01617,
+            "bottom" : 86.435974,
+            "x" : 53.76,
+            "y" : 80.435974,
+            "width" : 189.25618,
+            "height" : 6.0
+          },
+          "page" : 4,
+          "font_size" : 12.0,
+          "font_name" : "DEVEXP+URWFormExtraBold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_2",
+        "bbox" : {
+          "right" : 523.70056,
+          "bottom" : 166.60577,
+          "x" : 62.3622,
+          "y" : 107.91669,
+          "width" : 461.33835,
+          "height" : 58.689087
+        },
+        "page" : 4,
+        "text_elements" : [ {
+          "text" : "Obchodní cena za výkup silové elektřiny",
+          "bbox" : {
+            "right" : 192.62622,
+            "bottom" : 111.91669,
+            "x" : 62.3622,
+            "y" : 107.91669,
+            "width" : 130.26402,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond,Bold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Výkup elektřiny dodavatelem od 1. 12. 2025 do 31. 12. 2025",
+          "bbox" : {
+            "right" : 266.49817,
+            "bottom" : 129.46259,
+            "x" : 70.8661,
+            "y" : 125.462585,
+            "width" : 195.63208,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Součet",
+          "bbox" : {
+            "right" : 93.562096,
+            "bottom" : 144.26923,
+            "x" : 70.8661,
+            "y" : 140.26923,
+            "width" : 22.696,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Období výkupu je kráceno do posledního ukončeného měsíce fakturované dodávky. Chybějící část období bude zohledněna v následujícím vyúčtování.",
+          "bbox" : {
+            "right" : 523.70056,
+            "bottom" : 166.60577,
+            "x" : 65.1968,
+            "y" : 162.60577,
+            "width" : 458.50375,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_3",
+        "bbox" : {
+          "right" : 468.79202,
+          "bottom" : 229.716,
+          "x" : 53.76,
+          "y" : 223.716,
+          "width" : 415.032,
+          "height" : 6.0
+        },
+        "page" : 4,
+        "text_elements" : [ {
+          "text" : "Vyúčtované zálohy5 010,00 Kč s DPHHistorie spotřeby elektřiny",
+          "bbox" : {
+            "right" : 468.79202,
+            "bottom" : 229.716,
+            "x" : 53.76,
+            "y" : 223.716,
+            "width" : 415.032,
+            "height" : 6.0
+          },
+          "page" : 4,
+          "font_size" : 12.0,
+          "font_name" : "DEVEXP+URWFormExtraBold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_4",
+        "bbox" : {
+          "right" : 97.314285,
+          "bottom" : 270.9383,
+          "x" : 53.8583,
+          "y" : 251.82202,
+          "width" : 43.455986,
+          "height" : 19.116272
+        },
+        "page" : 4,
+        "text_elements" : [ {
+          "text" : "Přijetí platby",
+          "bbox" : {
+            "right" : 97.314285,
+            "bottom" : 255.82202,
+            "x" : 53.8583,
+            "y" : 251.82202,
+            "width" : 43.455986,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "5. 12. 2025",
+          "bbox" : {
+            "right" : 88.322296,
+            "bottom" : 270.9383,
+            "x" : 53.8583,
+            "y" : 266.9383,
+            "width" : 34.463997,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_5",
+        "bbox" : {
+          "right" : 292.57608,
+          "bottom" : 306.568,
+          "x" : 60.72,
+          "y" : 292.17603,
+          "width" : 231.85608,
+          "height" : 14.391968
+        },
+        "page" : 4,
+        "text_elements" : [ {
+          "text" : "Platby přijaté po datu odečtu  31.12. 2025 budou automaticky vyúčtovány",
+          "bbox" : {
+            "right" : 292.57608,
+            "bottom" : 296.17603,
+            "x" : 60.72,
+            "y" : 292.17603,
+            "width" : 231.85608,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond,Bold",
+          "confidence" : 1.0
+        }, {
+          "text" : "v dalším období.",
+          "bbox" : {
+            "right" : 110.91202,
+            "bottom" : 306.568,
+            "x" : 60.72,
+            "y" : 302.568,
+            "width" : 50.192017,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_6",
+        "bbox" : {
+          "right" : 561.2526,
+          "bottom" : 827.736,
+          "x" : 42.5197,
+          "y" : 815.276,
+          "width" : 518.7329,
+          "height" : 12.460022
+        },
+        "page" : 4,
+        "text_elements" : [ {
+          "text" : "Výpočet částky na podporu výkupu elektřiny (OZE) – dle §28 odst. 5 a 6 zákona č. 165/2012 Sb. je vyúčtována nižší hodnota z následujících dvoumetodických výpočtů, přičemž metoda B zároveň",
+          "bbox" : {
+            "right" : 561.2526,
+            "bottom" : 818.776,
+            "x" : 42.5197,
+            "y" : 815.276,
+            "width" : 518.7329,
+            "height" : 3.5
+          },
+          "page" : 4,
+          "font_size" : 7.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "určuje maximální možnou platbu za fakturované období: A: (počet fází jističe) × (proudová hodnota jističe [A]) × (počet měsíců) × (jednotková cena) | B: (spotřeba [MWh]) × (jednotková cena)",
+          "bbox" : {
+            "right" : 558.99866,
+            "bottom" : 827.736,
+            "x" : 42.5197,
+            "y" : 824.236,
+            "width" : 516.47894,
+            "height" : 3.5
+          },
+          "page" : 4,
+          "font_size" : 7.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_7",
+        "bbox" : {
+          "right" : 555.62396,
+          "bottom" : 144.26923,
+          "x" : 319.122,
+          "y" : 103.01788,
+          "width" : 236.50195,
+          "height" : 41.251343
+        },
+        "page" : 4,
+        "text_elements" : [ {
+          "text" : "Za jednotkuCelkem (není",
+          "bbox" : {
+            "right" : 555.62396,
+            "bottom" : 107.01788,
+            "x" : 436.4704,
+            "y" : 103.01788,
+            "width" : 119.153564,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "MnožstvíJednotka",
+          "bbox" : {
+            "right" : 392.59842,
+            "bottom" : 112.25391,
+            "x" : 320.3348,
+            "y" : 108.25391,
+            "width" : 72.26361,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "bez DPHpředmětem daně)",
+          "bbox" : {
+            "right" : 555.55804,
+            "bottom" : 117.48987,
+            "x" : 448.8037,
+            "y" : 113.48987,
+            "width" : 106.75433,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "0,005840MWh-1 961,62670 Kč",
+          "bbox" : {
+            "right" : 476.22043,
+            "bottom" : 129.35461,
+            "x" : 319.122,
+            "y" : 125.354614,
+            "width" : 157.09842,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "-11,46 Kč",
+          "bbox" : {
+            "right" : 555.5907,
+            "bottom" : 129.35461,
+            "x" : 526.4787,
+            "y" : 125.354614,
+            "width" : 29.112,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "-11,46 Kč",
+          "bbox" : {
+            "right" : 555.59045,
+            "bottom" : 144.26923,
+            "x" : 525.1585,
+            "y" : 140.26923,
+            "width" : 30.431946,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_8",
+        "bbox" : {
+          "right" : 549.9212,
+          "bottom" : 406.9578,
+          "x" : 253.6965,
+          "y" : 251.82202,
+          "width" : 296.2247,
+          "height" : 155.13577
+        },
+        "page" : 4,
+        "text_elements" : [ {
+          "text" : "Výše platby",
+          "bbox" : {
+            "right" : 291.96857,
+            "bottom" : 255.82202,
+            "x" : 253.6965,
+            "y" : 251.82202,
+            "width" : 38.272064,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "5 010,00 Kč",
+          "bbox" : {
+            "right" : 291.96844,
+            "bottom" : 270.9383,
+            "x" : 255.9685,
+            "y" : 266.9383,
+            "width" : 35.99994,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "715",
+          "bbox" : {
+            "right" : 354.51736,
+            "bottom" : 292.13867,
+            "x" : 342.8054,
+            "y" : 288.13867,
+            "width" : 11.711975,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "819",
+          "bbox" : {
+            "right" : 439.55667,
+            "bottom" : 292.13867,
+            "x" : 427.8447,
+            "y" : 288.13867,
+            "width" : 11.711975,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "942",
+          "bbox" : {
+            "right" : 524.59625,
+            "bottom" : 292.13867,
+            "x" : 512.8843,
+            "y" : 288.13867,
+            "width" : 11.711975,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "kWh",
+          "bbox" : {
+            "right" : 356.09338,
+            "bottom" : 304.11072,
+            "x" : 341.2294,
+            "y" : 300.11072,
+            "width" : 14.863983,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "kWh",
+          "bbox" : {
+            "right" : 441.13278,
+            "bottom" : 304.11072,
+            "x" : 426.2688,
+            "y" : 300.11072,
+            "width" : 14.863983,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "kWh",
+          "bbox" : {
+            "right" : 526.172,
+            "bottom" : 304.11072,
+            "x" : 511.308,
+            "y" : 300.11072,
+            "width" : 14.863983,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "od 1. 10. 2025od 1. 11. 2025od 1. 12. 2025",
+          "bbox" : {
+            "right" : 542.7774,
+            "bottom" : 319.41083,
+            "x" : 326.7214,
+            "y" : 315.41083,
+            "width" : 216.056,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "do 31. 10. 2025do 30. 11. 2025do 31. 12. 2025",
+          "bbox" : {
+            "right" : 542.63153,
+            "bottom" : 331.1508,
+            "x" : 324.7694,
+            "y" : 327.1508,
+            "width" : 217.86212,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "Celkem",
+          "bbox" : {
+            "right" : 549.89197,
+            "bottom" : 352.7532,
+            "x" : 525.5879,
+            "y" : 348.7532,
+            "width" : 24.304077,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "ObdobíPočet dnůVT (kWh)NT (kWh)",
+          "bbox" : {
+            "right" : 503.85806,
+            "bottom" : 357.9892,
+            "x" : 317.4803,
+            "y" : 353.9892,
+            "width" : 186.37778,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "(kWh)",
+          "bbox" : {
+            "right" : 549.8885,
+            "bottom" : 363.22522,
+            "x" : 528.3379,
+            "y" : 359.22522,
+            "width" : 21.550598,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "1. 10. 2025 - 31.10. 202531469246715",
+          "bbox" : {
+            "right" : 549.9212,
+            "bottom" : 377.8085,
+            "x" : 317.4803,
+            "y" : 373.8085,
+            "width" : 232.44092,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "1. 11. 2025 - 30.11. 202530594225819",
+          "bbox" : {
+            "right" : 549.9212,
+            "bottom" : 392.3832,
+            "x" : 317.4803,
+            "y" : 388.3832,
+            "width" : 232.44092,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "1. 12. 2025 - 31.12. 202531693249942",
+          "bbox" : {
+            "right" : 549.9212,
+            "bottom" : 406.9578,
+            "x" : 317.4803,
+            "y" : 402.9578,
+            "width" : 232.44092,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_9",
+        "bbox" : {
+          "right" : 559.8425,
+          "bottom" : 803.9154,
+          "x" : 548.6425,
+          "y" : 799.9154,
+          "width" : 11.200012,
+          "height" : 4.0
+        },
+        "page" : 4,
+        "text_elements" : [ {
+          "text" : "4/6",
+          "bbox" : {
+            "right" : 559.8425,
+            "bottom" : 803.9154,
+            "x" : 548.6425,
+            "y" : 799.9154,
+            "width" : 11.200012,
+            "height" : 4.0
+          },
+          "page" : 4,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_1",
+        "bbox" : {
+          "right" : 320.4983,
+          "bottom" : 466.0629,
+          "x" : 53.8583,
+          "y" : 460.0629,
+          "width" : 266.63998,
+          "height" : 6.0
+        },
+        "page" : 5,
+        "text_elements" : [ {
+          "text" : "Našli jste na vyúčtování nějakou nesrovnalost?",
+          "bbox" : {
+            "right" : 320.4983,
+            "bottom" : 466.0629,
+            "x" : 53.8583,
+            "y" : 460.0629,
+            "width" : 266.63998,
+            "height" : 6.0
+          },
+          "page" : 5,
+          "font_size" : 12.0,
+          "font_name" : "DEVEXP+URWFormExtraBold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_2",
+        "bbox" : {
+          "right" : 553.5969,
+          "bottom" : 666.4093,
+          "x" : 59.5275,
+          "y" : 495.43268,
+          "width" : 494.06943,
+          "height" : 170.97662
+        },
+        "page" : 5,
+        "text_elements" : [ {
+          "text" : "Při zjištění jakékoliv nesrovnalosti nás prosím kontaktujte e-mailem na reklamace@bezdodavatele.cz nebo telefonicky na bezplatné lince . Můžete také využít",
+          "bbox" : {
+            "right" : 553.51764,
+            "bottom" : 499.43268,
+            "x" : 59.5276,
+            "y" : 495.43268,
+            "width" : 493.99005,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "reklamační formulář ve svém online účtu. Reklamaci lze uplatnit v zákonných lhůtách dle platné legislativy a všeobecných obchodních podmínek.",
+          "bbox" : {
+            "right" : 503.08356,
+            "bottom" : 509.76868,
+            "x" : 59.5276,
+            "y" : 505.76868,
+            "width" : 443.55597,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "Případné spory řeší Energetický regulační úřad (vykonává činnost jednotného kontaktního místa), Masarykovo náměstí 5, 586 01 Jihlava; elektronická podatelna:",
+          "bbox" : {
+            "right" : 553.5969,
+            "bottom" : 531.80707,
+            "x" : 59.5276,
+            "y" : 527.80707,
+            "width" : 494.06934,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "podatelna@eru.gov.cz;",
+          "bbox" : {
+            "right" : 130.8236,
+            "bottom" : 542.1271,
+            "x" : 59.5276,
+            "y" : 538.1271,
+            "width" : 71.29599,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "tel.: +420 564 578 666; www.eru.gov.cz. Zákazník má možnost změnit obchodníka s elektřinou, zemním plynem nebo výrobce elektřiny. Srovnávací nástroje",
+          "bbox" : {
+            "right" : 536.0369,
+            "bottom" : 552.4471,
+            "x" : 59.5276,
+            "y" : 548.4471,
+            "width" : 476.50934,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "pro srovnání nabídek obchodníků s elektřinou a zemním plynem naleznete např. na webu www.eru.gov.cz/srovnavace.",
+          "bbox" : {
+            "right" : 423.33685,
+            "bottom" : 562.7671,
+            "x" : 59.5276,
+            "y" : 558.7671,
+            "width" : 363.80927,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "Ministerstvo prumyslu a obchodu; Na Františku 32, 110 15 Praha 1; elektronická podatelna: posta@mpo.gov.cz; tel.: +420 224 851 111; www.mpo.gov.cz.",
+          "bbox" : {
+            "right" : 530.4236,
+            "bottom" : 581.59106,
+            "x" : 59.5276,
+            "y" : 577.59106,
+            "width" : 470.896,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "Na webu www.mpo.gov.cz Ministerstva průmyslu a obchodu jsou zveřejněné kontaktní údaje na nezávislé spotřebitelské organizace nebo obdobné energetické",
+          "bbox" : {
+            "right" : 546.31696,
+            "bottom" : 591.9111,
+            "x" : 59.5276,
+            "y" : 587.9111,
+            "width" : 486.78937,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "agentury.",
+          "bbox" : {
+            "right" : 89.296936,
+            "bottom" : 602.2311,
+            "x" : 59.5276,
+            "y" : 598.2311,
+            "width" : 29.769337,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "Odkaz na nezávislé spotřebitelské organizace: https://mpo.gov.cz/cz/ochrana-spotrebitele/uzitecne-kontakty/",
+          "bbox" : {
+            "right" : 400.94952,
+            "bottom" : 621.0549,
+            "x" : 59.5275,
+            "y" : 617.0549,
+            "width" : 341.42203,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "Možnosti změny obchodníka s energiemi nebo výrobce energií: https://eru.gov.cz/stitky/zmena-dodavatele",
+          "bbox" : {
+            "right" : 389.2869,
+            "bottom" : 643.73206,
+            "x" : 59.5276,
+            "y" : 639.73206,
+            "width" : 329.7593,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "Datum ukončení závazku ze smlouvy - na dobu neurčitou",
+          "bbox" : {
+            "right" : 233.52628,
+            "bottom" : 666.4093,
+            "x" : 59.5276,
+            "y" : 662.4093,
+            "width" : 173.99867,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_3",
+        "bbox" : {
+          "right" : 397.70953,
+          "bottom" : 783.3072,
+          "x" : 56.6927,
+          "y" : 700.2771,
+          "width" : 341.01685,
+          "height" : 83.03009
+        },
+        "page" : 5,
+        "text_elements" : [ {
+          "text" : "Podíl zdrojů nebo původu energie na celkové směsi paliv",
+          "bbox" : {
+            "right" : 245.30887,
+            "bottom" : 704.2771,
+            "x" : 56.6929,
+            "y" : 700.2771,
+            "width" : 188.61597,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Uhlí:",
+          "bbox" : {
+            "right" : 347.6535,
+            "bottom" : 723.4473,
+            "x" : 331.6535,
+            "y" : 719.4473,
+            "width" : 16.0,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Informace o dopadech výroby elektřiny na životní prostředí",
+          "bbox" : {
+            "right" : 236.68346,
+            "bottom" : 729.90967,
+            "x" : 56.6927,
+            "y" : 725.90967,
+            "width" : 179.99075,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "Jaderné palivo:",
+          "bbox" : {
+            "right" : 383.57358,
+            "bottom" : 735.4193,
+            "x" : 331.6535,
+            "y" : 731.4193,
+            "width" : 51.920074,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "naleznete na www.chmi.cz a www.sujb.cz.",
+          "bbox" : {
+            "right" : 186.87877,
+            "bottom" : 740.1497,
+            "x" : 56.6927,
+            "y" : 736.1497,
+            "width" : 130.18607,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "Zemní plyn:",
+          "bbox" : {
+            "right" : 370.9015,
+            "bottom" : 747.3913,
+            "x" : 331.6535,
+            "y" : 743.3913,
+            "width" : 39.247986,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Obnovitelné zdroje:",
+          "bbox" : {
+            "right" : 397.70953,
+            "bottom" : 759.3632,
+            "x" : 331.6535,
+            "y" : 755.3632,
+            "width" : 66.05603,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Druhotné zdroje:",
+          "bbox" : {
+            "right" : 388.55753,
+            "bottom" : 771.3352,
+            "x" : 331.6535,
+            "y" : 767.3352,
+            "width" : 56.904022,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        }, {
+          "text" : "Ostatní:",
+          "bbox" : {
+            "right" : 358.5895,
+            "bottom" : 783.3072,
+            "x" : 331.6535,
+            "y" : 779.3072,
+            "width" : 26.936005,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCondExtraBold",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_4",
+        "bbox" : {
+          "right" : 561.2526,
+          "bottom" : 827.736,
+          "x" : 42.5197,
+          "y" : 815.276,
+          "width" : 518.7329,
+          "height" : 12.460022
+        },
+        "page" : 5,
+        "text_elements" : [ {
+          "text" : "Výpočet částky na podporu výkupu elektřiny (OZE) – dle §28 odst. 5 a 6 zákona č. 165/2012 Sb. je vyúčtována nižší hodnota z následujících dvoumetodických výpočtů, přičemž metoda B zároveň",
+          "bbox" : {
+            "right" : 561.2526,
+            "bottom" : 818.776,
+            "x" : 42.5197,
+            "y" : 815.276,
+            "width" : 518.7329,
+            "height" : 3.5
+          },
+          "page" : 5,
+          "font_size" : 7.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "určuje maximální možnou platbu za fakturované období: A: (počet fází jističe) × (proudová hodnota jističe [A]) × (počet měsíců) × (jednotková cena) | B: (spotřeba [MWh]) × (jednotková cena)",
+          "bbox" : {
+            "right" : 558.99866,
+            "bottom" : 827.736,
+            "x" : 42.5197,
+            "y" : 824.236,
+            "width" : 516.47894,
+            "height" : 3.5
+          },
+          "page" : 5,
+          "font_size" : 7.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_5",
+        "bbox" : {
+          "right" : 559.8425,
+          "bottom" : 803.9154,
+          "x" : 427.0538,
+          "y" : 696.8867,
+          "width" : 132.78873,
+          "height" : 107.02869
+        },
+        "page" : 5,
+        "text_elements" : [ {
+          "text" : "Podíl zdrojůNárodní podíl zdrojů",
+          "bbox" : {
+            "right" : 549.9159,
+            "bottom" : 700.8867,
+            "x" : 437.5538,
+            "y" : 696.8867,
+            "width" : 112.36209,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond,Bold",
+          "confidence" : 1.0
+        }, {
+          "text" : "bezDodavateleza rok 2024",
+          "bbox" : {
+            "right" : 549.91003,
+            "bottom" : 711.30273,
+            "x" : 427.0538,
+            "y" : 707.30273,
+            "width" : 122.85623,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond,Bold",
+          "confidence" : 1.0
+        }, {
+          "text" : "0,00 %39,62 %",
+          "bbox" : {
+            "right" : 549.92255,
+            "bottom" : 723.3393,
+            "x" : 454.4125,
+            "y" : 719.3393,
+            "width" : 95.51004,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "60,31 %38,09 %",
+          "bbox" : {
+            "right" : 549.92255,
+            "bottom" : 735.3113,
+            "x" : 450.5085,
+            "y" : 731.3113,
+            "width" : 99.41403,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "0,26 %",
+          "bbox" : {
+            "right" : 476.2205,
+            "bottom" : 747.2833,
+            "x" : 454.4125,
+            "y" : 743.2833,
+            "width" : 21.807983,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "5,15 %",
+          "bbox" : {
+            "right" : 549.9226,
+            "bottom" : 747.2833,
+            "x" : 528.1146,
+            "y" : 743.2833,
+            "width" : 21.807983,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "37,91 %16,87 %",
+          "bbox" : {
+            "right" : 549.92255,
+            "bottom" : 759.2552,
+            "x" : 450.5085,
+            "y" : 755.2552,
+            "width" : 99.41403,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "0,00 %",
+          "bbox" : {
+            "right" : 476.2205,
+            "bottom" : 771.2272,
+            "x" : 454.4125,
+            "y" : 767.2272,
+            "width" : 21.807983,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "0,16 %",
+          "bbox" : {
+            "right" : 549.9226,
+            "bottom" : 771.2272,
+            "x" : 528.1146,
+            "y" : 767.2272,
+            "width" : 21.807983,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "1,52 %",
+          "bbox" : {
+            "right" : 476.2205,
+            "bottom" : 783.1992,
+            "x" : 454.4125,
+            "y" : 779.1992,
+            "width" : 21.807983,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "0,11 %",
+          "bbox" : {
+            "right" : 549.9226,
+            "bottom" : 783.1992,
+            "x" : 528.1146,
+            "y" : 779.1992,
+            "width" : 21.807983,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "5/6",
+          "bbox" : {
+            "right" : 559.8425,
+            "bottom" : 803.9154,
+            "x" : 548.6425,
+            "y" : 799.9154,
+            "width" : 11.200012,
+            "height" : 4.0
+          },
+          "page" : 5,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        } ]
+      }, {
+        "id" : "block_1",
+        "bbox" : {
+          "right" : 559.8425,
+          "bottom" : 818.3815,
+          "x" : 115.0192,
+          "y" : 796.6555,
+          "width" : 444.82333,
+          "height" : 21.725952
+        },
+        "page" : 6,
+        "text_elements" : [ {
+          "text" : "6/6",
+          "bbox" : {
+            "right" : 559.8425,
+            "bottom" : 800.6555,
+            "x" : 548.6425,
+            "y" : 796.6555,
+            "width" : 11.200012,
+            "height" : 4.0
+          },
+          "page" : 6,
+          "font_size" : 8.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        }, {
+          "text" : "bezDodavatele a.s. | Walterovo náměstí 329/3, Jinonice, 158 00 Praha 5 | IČ: 08934061 | DIČ: CZ08934061 | Zapsaná u MS v Praze, sp. zn.: B 25114",
+          "bbox" : {
+            "right" : 488.58026,
+            "bottom" : 818.3815,
+            "x" : 115.0192,
+            "y" : 815.1315,
+            "width" : 373.56107,
+            "height" : 3.25
+          },
+          "page" : 6,
+          "font_size" : 6.0,
+          "font_name" : "DEVEXP+URWFormCond",
+          "confidence" : 1.0
+        } ]
+      } ],
+      "barcodes" : [ {
+        "id" : "barcode_1",
+        "bbox" : {
+          "right" : 543.6,
+          "bottom" : 486.0,
+          "x" : 512.39996,
+          "y" : 454.8,
+          "width" : 31.199999,
+          "height" : 31.199999
+        },
+        "page" : 1,
+        "format" : "QR_CODE",
+        "raw_content" : "SPD*1.0*ACC:CZ3827000000001387748041*AM:1667.83*CC:CZK*X-VS:7938001326"
+      }, {
+        "id" : "barcode_2",
+        "bbox" : {
+          "right" : 541.2,
+          "bottom" : 728.4,
+          "x" : 510.0,
+          "y" : 697.2,
+          "width" : 31.199999,
+          "height" : 31.199999
+        },
+        "page" : 1,
+        "format" : "QR_CODE",
+        "raw_content" : "SPD*1.0*ACC:CZ3827000000001387748041*AM:4580.00*CC:CZK*X-VS:6300077421"
+      } ]
+    },
+    "structural" : {
+      "blocks" : [ {
+        "id" : "block_1",
+        "type" : "labeled_content",
+        "header" : "Zákazník",
+        "content" : [ "Ing. Jan Novák", "Hlavní 123/45", "Vinohrady", "120 00 Praha 2" ]
+      }, {
+        "id" : "block_2",
+        "type" : "labeled_content",
+        "header" : "Váš účet",
+        "content" : [ "<BVT>XXXXSpXrXaXvuXjtXeX úXčeXt< oBnVliTne> na:  mujucet.bezdodavatele.cz", "Přihlašovací jméno:  jan.novak@example.com", "Zákaznické číslo:  123456789 0" ]
+      }, {
+        "id" : "block_3",
+        "type" : "labeled_content",
+        "header" : "Řádné vyúčtování elektřiny č. 0000000001",
+        "content" : [ "Období:  1. 12. 2025 - 31. 12. 2025 Vystaveno:  21. 1. 2026 Odběrné místo:  8591824000000000 01", "Množství:  0,94200 MWh", "Položka", "Dodávka energií", "Obchodní platby", "Regulované platby", "Vyúčtované zálohy", "Výkup elektřiny", "Výsledek vyúčtování                               " ]
+      }, {
+        "id" : "block_4",
+        "type" : "labeled_content",
+        "header" : "Zálohy na další období",
+        "content" : [ "Datum", "splatnosti", "15. 1. 2026", "15. 2. 2026" ]
+      }, {
+        "id" : "block_5",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "ZměnaVaše nová výše měsíčních", "záloh »záloh činí" ]
+      }, {
+        "id" : "block_6",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "bezDodavatele a.s. | Walterovo náměstí 329/3, Jinonice, 158 00 Praha 5 | IČ: 08934061 | DIČ: CZ08934061 | Zapsaná u MS v Praze, sp. zn.: B 25114" ]
+      }, {
+        "id" : "block_7",
+        "type" : "labeled_content",
+        "header" : "ZálohovéCelkemDoplatit",
+        "content" : [ "obdobívč. DPHvč. DPH", "01/20265 150,00 Kč140,00 Kč", "02/20264 580,00 Kč4 580,00 Kč" ]
+      }, {
+        "id" : "block_8",
+        "type" : "labeled_content",
+        "header" : "Adresát",
+        "content" : [ "Ing. Jan Novák", "Hlavní 123/45", "Vinohrady", "120 00 Prah9a 2" ]
+      }, {
+        "id" : "block_9",
+        "type" : "labeled_content",
+        "header" : "Uhraďte prosím",
+        "content" : [ "Splatnost:  4. 2. 2026 Adresa:  Kv·tná 42/7, Mladá Bolesla v", "Celkem bez DPHCelkem s DPH", "6 689,29 KčDoplatek", "5 528,34 Kč", "3 002,53 Kč", "3 633,06 Kč", "2 525,81 Kč", "3 056,23 Kč", "-4 140,50 Kč-5 010,00 Kč", "-11,46 Kč1 667,83 Kč", "1 667,83 Kč", "Údaje pro úhradu doplatku", "Bankovní účet: 12 345 67 89/02700", "Variabilní symbol: 0000000001", "Datum splatnosti: 4. 2. 2026" ]
+      }, {
+        "id" : "block_10",
+        "type" : "labeled_content",
+        "header" : "Jak jste šetřili přírodu?",
+        "content" : [ ]
+      }, {
+        "id" : "block_11",
+        "type" : "labeled_content",
+        "header" : "483 kg CO₂",
+        "content" : [ "Vaše domáctnost ušetřila", "to je jako byste zasadili", "22 plně vzrostlých", "stromů" ]
+      }, {
+        "id" : "block_12",
+        "type" : "labeled_content",
+        "header" : "4 580 KčDatum splatnosti: dle předepsaných záloh",
+        "content" : [ "Zkontrolujte si výši trvalého příkazu", "Bankovní účet: 12 345 67 89/02700", "Variabilní symbol: 1234567890" ]
+      }, {
+        "id" : "block_13",
+        "type" : "labeled_content",
+        "header" : "1/6",
+        "content" : [ ]
+      }, {
+        "id" : "block_14",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "Poruchová linka distributora | ČEZ: 800 850 860" ]
+      }, {
+        "id" : "block_1",
+        "type" : "labeled_content",
+        "header" : "Přehled plateb – dle vyhlášky č. 207/2021 Sb.",
+        "content" : [ "Podrobný přehled", "Vysoký tarif", "Nízký tarif", "Délka období", "Součet" ]
+      }, {
+        "id" : "block_2",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "¹ Vypočítáno podílem částky celkem bez DPH a účtovaného množství.", "² Haléřový rozdíl (proti částce v rekapitulaci) je způsoben zaokrouhlováním" ]
+      }, {
+        "id" : "block_3",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "bezDodavatele a.s. | Walterovo náměstí 329/3, Jinonice, 158 00 Praha 5 | IČ: 08934061 | DIČ: CZ08934061 | Zapsaná u MS v Praze, sp. zn.: B 25114" ]
+      }, {
+        "id" : "block_4",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "MnožstvíPrůměrná jednotková cena bez DPH¹Celkem bez DPHCelkem s DPH²", "693,00 kWh", "249,00 kWh", "1,00 měsíc" ]
+      }, {
+        "id" : "block_5",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "Poruchová linka distributora | ČEZ: 800 850 860" ]
+      }, {
+        "id" : "block_6",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "6,01 Kč/kWh4 165,74 Kč5 040,55 Kč", "3,95 Kč/kWh", "983,57 Kč1 190,12 Kč", "379,03 Kč/měsíc", "379,03 Kč", "458,63 Kč", "5 528,34 Kč6 689,30 Kč" ]
+      }, {
+        "id" : "block_7",
+        "type" : "labeled_content",
+        "header" : "2/6",
+        "content" : [ ]
+      }, {
+        "id" : "block_1",
+        "type" : "labeled_content",
+        "header" : "Spotřeba elektřiny - detail odběrného místa - EAN 859182400000000001",
+        "content" : [ "Adresa:  Mladá Bolesla,vKv·tná 42/7", "Platnost smlouvy:  Výpovědní lhůta 1 měsíc počíná běžet 1. dnem následujícího měsíce po doručení výpovědi.", "Dodané množství pro období" ]
+      }, {
+        "id" : "block_2",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "1. 12. 2025 - 31. 12. 202584507389VT2141822111D51693,000693,000,69300", "1. 12. 2025 - 31. 12. 202584507389NT1210612355D51249,000249,000,24900", "Součet" ]
+      }, {
+        "id" : "block_3",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "Způsob odečtu (ZO):  D – odečet distributorem" ]
+      }, {
+        "id" : "block_4",
+        "type" : "labeled_content",
+        "header" : "Dodávka elektřiny - detail",
+        "content" : [ ]
+      }, {
+        "id" : "block_5",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "Obchodní platby" ]
+      }, {
+        "id" : "block_6",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "Období: od 1. 12. 2025 do 31. 12. 2025", "Název produktu: EL | D | Spot | 2T", "Stálý plat", "Cena za služby obchodu", "Cena za silovou elektřinu", "Součet za toto období" ]
+      }, {
+        "id" : "block_7",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "Regulované platby" ]
+      }, {
+        "id" : "block_8",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "Období: od 1. 12. 2025 do 31. 12. 2025", "Distribuované množství elektřiny NT", "Distribuované množství elektřiny VT", "Měsíční plat za příkon - jistič", "Cena za provoz nesíťové infrastruktury", "Cena na podporu výkupu elektřiny (OZE)", "Daň z elektřiny", "Systémové služby ČEPS, a.s.", "Součet za toto období" ]
+      }, {
+        "id" : "block_9",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "Výpočet částky na podporu výkupu elektřiny (OZE) – dle §28 odst. 5 a 6 zákona č. 165/2012 Sb. je vyúčtována nižší hodnota z následujících dvoumetodických výpočtů, přičemž metoda B zároveň", "určuje maximální možnou platbu za fakturované období: A: (počet fází jističe) × (proudová hodnota jističe [A]) × (počet měsíců) × (jednotková cena) | B: (spotřeba [MWh]) × (jednotková cena)" ]
+      }, {
+        "id" : "block_10",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "Stav měřidla", "MěřidloTarifPočátečníKoncovýZOTDDNásobitelkWhkWhv kWhv MWh" ]
+      }, {
+        "id" : "block_11",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "SazbaMnožstvíJednotkaZa jedn. bez DPHCelkem bez DPH" ]
+      }, {
+        "id" : "block_12",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "D25d31,00000den4,18000 Kč129,58 Kč", "D25d0,94200MWh450,00000 Kč423,90 Kč", "D25d0,94200MWh2 599,84260 Kč2 449,05 Kč" ]
+      }, {
+        "id" : "block_13",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "JističMnožstvíJednotkaZa jedn. bez DPHCelkem bez DPH" ]
+      }, {
+        "id" : "block_14",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "3×251,00000měsíc237,00000 Kč237,00 Kč" ]
+      }, {
+        "id" : "block_15",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "SpotřebaKorekceSpotřeba v období" ]
+      }, {
+        "id" : "block_16",
+        "type" : "labeled_content",
+        "header" : "942,000,94200",
+        "content" : [ ]
+      }, {
+        "id" : "block_17",
+        "type" : "labeled_content",
+        "header" : "5 528,34 Kč bez DPH",
+        "content" : [ ]
+      }, {
+        "id" : "block_18",
+        "type" : "labeled_content",
+        "header" : "Obchodní",
+        "content" : [ "platby" ]
+      }, {
+        "id" : "block_19",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "3 002,53 Kč3 002,53 Kč" ]
+      }, {
+        "id" : "block_20",
+        "type" : "labeled_content",
+        "header" : "Regulované",
+        "content" : [ "platby" ]
+      }, {
+        "id" : "block_21",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "0,24900MWh206,00000 Kč51,29 Kč", "0,69300MWh2 267,11000 Kč1 571,11 Kč" ]
+      }, {
+        "id" : "block_22",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "1,00000měsíc12,45000 Kč12,45 Kč", "0,94200MWh495,00000 Kč466,29 Kč", "0,94200MWh28,30000 Kč26,66 Kč", "0,94200MWh170,92000 Kč161,01 Kč", "2 525,81 Kč2 525,81 Kč" ]
+      }, {
+        "id" : "block_23",
+        "type" : "labeled_content",
+        "header" : "3/6",
+        "content" : [ ]
+      }, {
+        "id" : "block_1",
+        "type" : "labeled_content",
+        "header" : "Další fakturované položky - detail",
+        "content" : [ ]
+      }, {
+        "id" : "block_2",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "Obchodní cena za výkup silové elektřiny", "Výkup elektřiny dodavatelem od 1. 12. 2025 do 31. 12. 2025", "Součet", "Období výkupu je kráceno do posledního ukončeného měsíce fakturované dodávky. Chybějící část období bude zohledněna v následujícím vyúčtování." ]
+      }, {
+        "id" : "block_3",
+        "type" : "labeled_content",
+        "header" : "Vyúčtované zálohy5 010,00 Kč s DPHHistorie spotřeby elektřiny",
+        "content" : [ ]
+      }, {
+        "id" : "block_4",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "Přijetí platby", "5. 12. 2025" ]
+      }, {
+        "id" : "block_5",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "Platby přijaté po datu odečtu  31.12. 2025 budou automaticky vyúčtovány", "v dalším období." ]
+      }, {
+        "id" : "block_6",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "Výpočet částky na podporu výkupu elektřiny (OZE) – dle §28 odst. 5 a 6 zákona č. 165/2012 Sb. je vyúčtována nižší hodnota z následujících dvoumetodických výpočtů, přičemž metoda B zároveň", "určuje maximální možnou platbu za fakturované období: A: (počet fází jističe) × (proudová hodnota jističe [A]) × (počet měsíců) × (jednotková cena) | B: (spotřeba [MWh]) × (jednotková cena)" ]
+      }, {
+        "id" : "block_7",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "Za jednotkuCelkem (není", "MnožstvíJednotka", "bez DPHpředmětem daně)", "0,005840MWh-1 961,62670 Kč", "-11,46 Kč", "-11,46 Kč" ]
+      }, {
+        "id" : "block_8",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "Výše platby", "5 010,00 Kč", "715", "819", "942", "kWh", "kWh", "kWh", "od 1. 10. 2025od 1. 11. 2025od 1. 12. 2025", "do 31. 10. 2025do 30. 11. 2025do 31. 12. 2025", "Celkem", "ObdobíPočet dnůVT (kWh)NT (kWh)", "(kWh)", "1. 10. 2025 - 31.10. 202531469246715", "1. 11. 2025 - 30.11. 202530594225819", "1. 12. 2025 - 31.12. 202531693249942" ]
+      }, {
+        "id" : "block_9",
+        "type" : "labeled_content",
+        "header" : "4/6",
+        "content" : [ ]
+      }, {
+        "id" : "block_1",
+        "type" : "labeled_content",
+        "header" : "Našli jste na vyúčtování nějakou nesrovnalost?",
+        "content" : [ ]
+      }, {
+        "id" : "block_2",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "Při zjištění jakékoliv nesrovnalosti nás prosím kontaktujte e-mailem na reklamace@bezdodavatele.cz nebo telefonicky na bezplatné lince . Můžete také využít", "reklamační formulář ve svém online účtu. Reklamaci lze uplatnit v zákonných lhůtách dle platné legislativy a všeobecných obchodních podmínek.", "Případné spory řeší Energetický regulační úřad (vykonává činnost jednotného kontaktního místa), Masarykovo náměstí 5, 586 01 Jihlava; elektronická podatelna:", "podatelna@eru.gov.cz;", "tel.: +420 564 578 666; www.eru.gov.cz. Zákazník má možnost změnit obchodníka s elektřinou, zemním plynem nebo výrobce elektřiny. Srovnávací nástroje", "pro srovnání nabídek obchodníků s elektřinou a zemním plynem naleznete např. na webu www.eru.gov.cz/srovnavace.", "Ministerstvo prumyslu a obchodu; Na Františku 32, 110 15 Praha 1; elektronická podatelna: posta@mpo.gov.cz; tel.: +420 224 851 111; www.mpo.gov.cz.", "Na webu www.mpo.gov.cz Ministerstva průmyslu a obchodu jsou zveřejněné kontaktní údaje na nezávislé spotřebitelské organizace nebo obdobné energetické", "agentury.", "Odkaz na nezávislé spotřebitelské organizace: https://mpo.gov.cz/cz/ochrana-spotrebitele/uzitecne-kontakty/", "Možnosti změny obchodníka s energiemi nebo výrobce energií: https://eru.gov.cz/stitky/zmena-dodavatele", "Datum ukončení závazku ze smlouvy - na dobu neurčitou" ]
+      }, {
+        "id" : "block_3",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "Podíl zdrojů nebo původu energie na celkové směsi paliv", "Uhlí:", "Informace o dopadech výroby elektřiny na životní prostředí", "Jaderné palivo:", "naleznete na www.chmi.cz a www.sujb.cz.", "Zemní plyn:", "Obnovitelné zdroje:", "Druhotné zdroje:", "Ostatní:" ]
+      }, {
+        "id" : "block_4",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "Výpočet částky na podporu výkupu elektřiny (OZE) – dle §28 odst. 5 a 6 zákona č. 165/2012 Sb. je vyúčtována nižší hodnota z následujících dvoumetodických výpočtů, přičemž metoda B zároveň", "určuje maximální možnou platbu za fakturované období: A: (počet fází jističe) × (proudová hodnota jističe [A]) × (počet měsíců) × (jednotková cena) | B: (spotřeba [MWh]) × (jednotková cena)" ]
+      }, {
+        "id" : "block_5",
+        "type" : "content",
+        "header" : null,
+        "content" : [ "Podíl zdrojůNárodní podíl zdrojů", "bezDodavateleza rok 2024", "0,00 %39,62 %", "60,31 %38,09 %", "0,26 %", "5,15 %", "37,91 %16,87 %", "0,00 %", "0,16 %", "1,52 %", "0,11 %", "5/6" ]
+      }, {
+        "id" : "block_1",
+        "type" : "labeled_content",
+        "header" : "6/6",
+        "content" : [ "bezDodavatele a.s. | Walterovo náměstí 329/3, Jinonice, 158 00 Praha 5 | IČ: 08934061 | DIČ: CZ08934061 | Zapsaná u MS v Praze, sp. zn.: B 25114" ]
+      } ],
+      "barcodes" : [ {
+        "id" : "barcode_1",
+        "format" : "QR_CODE",
+        "content_type" : "spayd",
+        "nearby_blocks" : [ "block_3", "block_9", "block_10" ],
+        "confidence" : 1.0
+      }, {
+        "id" : "barcode_2",
+        "format" : "QR_CODE",
+        "content_type" : "spayd",
+        "nearby_blocks" : [ "block_6", "block_11", "block_12", "block_13" ],
+        "confidence" : 1.0
+      } ]
+    },
+    "semantic" : {
+      "entities" : [ {
+        "type" : "customer",
+        "source_block" : "block_1",
+        "fields" : {
+          "postal_address" : "120 00 Praha 2",
+          "street" : "Hlavní 123/45",
+          "name" : "Ing. Jan Novák"
+        },
+        "confidence" : 0.8
+      }, {
+        "type" : "account",
+        "source_block" : "block_2",
+        "fields" : {
+          "postal_address" : "Zákaznické číslo:  123456789 0",
+          "street" : "Přihlašovací jméno:  jan.novak@example.com",
+          "name" : "<BVT>XXXXSpXrXaXvuXjtXeX úXčeXt< oBnVliTne> na:  mujucet.bezdodavatele.cz"
+        },
+        "confidence" : 0.8
+      }, {
+        "type" : "recipient",
+        "source_block" : "block_8",
+        "fields" : {
+          "postal_address" : "120 00 Prah9a 2",
+          "street" : "Hlavní 123/45",
+          "name" : "Ing. Jan Novák"
+        },
+        "confidence" : 0.8
+      } ],
+      "payments" : [ {
+        "type" : "payment",
+        "source_barcode" : "barcode_1",
+        "format" : "spayd",
+        "fields" : {
+          "account" : "CZ3827000000001387748041",
+          "amount" : 1667.83,
+          "currency" : "CZK",
+          "variable_symbol" : "7938001326",
+          "constant_symbol" : null,
+          "specific_symbol" : null,
+          "message" : null,
+          "recipient_name" : null
+        },
+        "confidence" : 1.0
+      }, {
+        "type" : "payment",
+        "source_barcode" : "barcode_2",
+        "format" : "spayd",
+        "fields" : {
+          "account" : "CZ3827000000001387748041",
+          "amount" : 4580.0,
+          "currency" : "CZK",
+          "variable_symbol" : "6300077421",
+          "constant_symbol" : null,
+          "specific_symbol" : null,
+          "message" : null,
+          "recipient_name" : null
+        },
+        "confidence" : 1.0
+      } ]
+    }
+  }
+}

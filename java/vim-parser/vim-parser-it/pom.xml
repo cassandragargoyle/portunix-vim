@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.cassandragargoyle.portunix</groupId>
+		<artifactId>vim-parser-parent</artifactId>
+		<version>0.1.8-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>vim-parser-it</artifactId>
+	<packaging>jar</packaging>
+
+	<name>Portunix VIM Parser - Integration Tests</name>
+	<description>End-to-end integration tests verifying real sibling plugins are discovered by PluginManager</description>
+
+	<dependencies>
+		<!-- Module under test -->
+		<dependency>
+			<groupId>org.cassandragargoyle.portunix</groupId>
+			<artifactId>vim-parser-api</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.cassandragargoyle.portunix</groupId>
+			<artifactId>vim-parser-core</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- Real plugin modules: extractors -->
+		<dependency>
+			<groupId>org.cassandragargoyle.portunix</groupId>
+			<artifactId>vim-parser-barcode</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.cassandragargoyle.portunix</groupId>
+			<artifactId>vim-parser-fulltext</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- Real plugin modules: parsers -->
+		<dependency>
+			<groupId>org.cassandragargoyle.portunix</groupId>
+			<artifactId>vim-parser-spayd</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- Real plugin modules: visualizers -->
+		<dependency>
+			<groupId>org.cassandragargoyle.portunix</groupId>
+			<artifactId>vim-parser-visualizer</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- Testing -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-api</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<!-- Surefire is disabled: this module only carries integration tests -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
+			</plugin>
+
+			<!-- Failsafe runs *IT tests in the integration-test phase -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-failsafe-plugin</artifactId>
+				<version>3.5.5</version>
+				<configuration>
+					<systemPropertyVariables>
+						<!-- Packaged table plugin, built earlier in the reactor -->
+						<vimparser.table.plugin.zip>${project.basedir}/../vim-parser-table/target/table-plugin-${project.version}.zip</vimparser.table.plugin.zip>
+					</systemPropertyVariables>
+				</configuration>
+				<executions>
+					<execution>
+						<id>integration-tests</id>
+						<goals>
+							<goal>integration-test</goal>
+							<goal>verify</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>
