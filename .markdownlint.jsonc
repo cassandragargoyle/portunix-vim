@@ -1,0 +1,21 @@
+{
+  // Line length: 150 chars, ignore tables and code blocks
+   // Disable line length check
+  "MD013": false,
+  // Changelogs repeat Added/Changed headings under each version
+  "MD024": {
+    "siblings_only": true
+  },
+  // Frontmatter `title` mirrors the H1 (MARKDOWN-FRONTMATTER.md), so it is no extra heading
+  "MD025": {
+    "front_matter_title": ""
+  },
+  // Ordered lists use sequential numbering (1, 2, 3)
+  "MD029": {
+    "style": "ordered"
+  },
+  // Allow hard tabs inside code blocks (Java/Go code style uses tabs)
+  "MD010": {
+    "code_blocks": false
+  }
+}

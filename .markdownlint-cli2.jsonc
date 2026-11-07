@@ -1,0 +1,33 @@
+{
+  // Glob patterns for files to lint
+  "globs": [
+    "docs/**/*.md",
+    "*.md",
+    "java/**/*.md",
+    "python/**/*.md",
+    "go/**/*.md"
+  ],
+  // Glob patterns for files to ignore
+  "ignores": [
+    "docs/adr/**",
+    "docs/issues/**",
+    "docs/testing/internal/**",
+    "docs/private/**",
+    "docs/notes/**",
+    "CLAUDE.md",
+    "AGENTS.md",
+    "CLAUDE.local.md",
+    "GEMINI.md",
+    "NOTES.md",
+    "TODO.md",
+    ".claude/**",
+    ".translated/**",
+    "**/.venv/**",
+    "**/node_modules/**",
+    "**/target/**",
+    "dist/**",
+    "**/src/test/resources/**",
+    "java/vim-parser/research/samples/**",
+    "java/vim-parser/research/results/**"
+  ]
+}
