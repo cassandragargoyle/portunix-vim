@@ -21,27 +21,18 @@ For the VIM parser itself (layers, plugins, usage) see
 
 ### Prerequisites
 
-Some dependencies come from GitHub Packages, which requires authentication even for public
-packages:
-
-| Repository id                    | Source                                                                                                    | Artifacts                                  |
-| -------------------------------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| `github-portunix-api`            | [cassandragargoyle/api](https://github.com/cassandragargoyle/api)                                         | `org-cassandragargoyle-api`                |
-| `github-portunix-table-detector` | [cassandragargoyle/portunix-table-detector](https://github.com/cassandragargoyle/portunix-table-detector) | `table-detector-api`, `table-detector-pdf` |
-
-Create a GitHub personal access token (classic) with the `read:packages` scope and add one
-server per repository id to `~/.m2/settings.xml`:
+`org-cassandragargoyle-api` and `table-detector-api`/`-pdf` (published from
+[portunix-table-detector](https://github.com/cassandragargoyle/portunix-table-detector)) come from
+GitHub Packages through one repository, id `github`, URL
+`https://maven.pkg.github.com/cassandragargoyle/*`. GitHub Packages requires authentication even
+for public packages: create a GitHub personal access token (classic) with the `read:packages`
+scope and add it to `~/.m2/settings.xml`:
 
 ```xml
 <settings>
   <servers>
     <server>
-      <id>github-portunix-api</id>
-      <username>YOUR_GITHUB_LOGIN</username>
-      <password>YOUR_TOKEN</password>
-    </server>
-    <server>
-      <id>github-portunix-table-detector</id>
+      <id>github</id>
       <username>YOUR_GITHUB_LOGIN</username>
       <password>YOUR_TOKEN</password>
     </server>

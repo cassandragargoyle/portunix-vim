@@ -22,27 +22,18 @@ Dokumentaci samotného VIM parseru (vrstvy, pluginy, použití) najdete v
 
 ### Předpoklady
 
-Některé závislosti pocházejí z GitHub Packages, které vyžadují autentizaci i u veřejných
-balíčků:
-
-| Id repozitáře                    | Zdroj                                                                                                     | Artefakty                                  |
-| -------------------------------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| `github-portunix-api`            | [cassandragargoyle/api](https://github.com/cassandragargoyle/api)                                         | `org-cassandragargoyle-api`                |
-| `github-portunix-table-detector` | [cassandragargoyle/portunix-table-detector](https://github.com/cassandragargoyle/portunix-table-detector) | `table-detector-api`, `table-detector-pdf` |
-
-Vytvořte GitHub personal access token (classic) se scope `read:packages` a do
-`~/.m2/settings.xml` přidejte pro každé id repozitáře jeden server:
+`org-cassandragargoyle-api` a `table-detector-api`/`-pdf` (publikované z
+[portunix-table-detector](https://github.com/cassandragargoyle/portunix-table-detector)) se stahují
+z GitHub Packages přes jeden repozitář s id `github` a URL
+`https://maven.pkg.github.com/cassandragargoyle/*`. GitHub Packages vyžaduje autentizaci i u
+veřejných balíčků: vytvořte GitHub personal access token (classic) se scope `read:packages` a
+přidejte ho do `~/.m2/settings.xml`:
 
 ```xml
 <settings>
   <servers>
     <server>
-      <id>github-portunix-api</id>
-      <username>VAS_GITHUB_LOGIN</username>
-      <password>VAS_TOKEN</password>
-    </server>
-    <server>
-      <id>github-portunix-table-detector</id>
+      <id>github</id>
       <username>VAS_GITHUB_LOGIN</username>
       <password>VAS_TOKEN</password>
     </server>

@@ -41,29 +41,10 @@ jobs:
           distribution: temurin
           java-version: '21'
           cache: maven
-          # settings.xml is written by the next step (two GitHub Packages servers)
-          overwrite-settings: false
-
-      # Server ids match the repository ids in java/vim-parser/pom.xml
-      - name: Configure GitHub Packages credentials
-        run: |
-          mkdir -p ~/.m2
-          cat > ~/.m2/settings.xml <<'EOF'
-          <settings>
-            <servers>
-              <server>
-                <id>github-portunix-api</id>
-                <username>${env.GITHUB_ACTOR}</username>
-                <password>${env.GITHUB_TOKEN}</password>
-              </server>
-              <server>
-                <id>github-portunix-table-detector</id>
-                <username>${env.GITHUB_ACTOR}</username>
-                <password>${env.GITHUB_TOKEN}</password>
-              </server>
-            </servers>
-          </settings>
-          EOF
+          # writes settings.xml with server "github" (repository id in the poms)
+          server-id: github
+          server-username: GITHUB_ACTOR
+          server-password: GITHUB_TOKEN
 
       # TK stemmer tests need the native TK library, which the runner does not have
       - name: Build and test

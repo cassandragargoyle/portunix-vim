@@ -286,16 +286,10 @@
 			<id>central</id>
 			<url>https://repo.maven.apache.org/maven2</url>
 		</repository>
+		<!-- All cassandragargoyle packages (org-cassandragargoyle-api, table-detector-*) -->
 		<repository>
-			<id>github-portunix-api</id>
-			<url>https://maven.pkg.github.com/cassandragargoyle/api</url>
-		</repository>
-		<repository>
-			<id>github-portunix-table-detector</id>
-			<url>https://maven.pkg.github.com/cassandragargoyle/portunix-table-detector</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
+			<id>github</id>
+			<url>https://maven.pkg.github.com/cassandragargoyle/*</url>
 		</repository>
 	</repositories>
 

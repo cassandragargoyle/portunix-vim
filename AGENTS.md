@@ -75,8 +75,9 @@ make verify
 `vim-parser-table` consumes `table-detector-api` and `table-detector-pdf` from
 [portunix-table-detector](https://github.com/cassandragargoyle/portunix-table-detector) as
 versioned artifacts (`table-detector.version` in `java/vim-parser/pom.xml`) published to GitHub
-Packages. `~/.m2/settings.xml` needs servers `github-portunix-api` and
-`github-portunix-table-detector` with a PAT that has `read:packages` (see `README.md`).
+Packages. Maven repository id `github` (`https://maven.pkg.github.com/cassandragargoyle/*`) serves
+all cassandragargoyle packages; `~/.m2/settings.xml` needs server `github` with a PAT that has
+`read:packages` (see `README.md`).
 
 Distribution package for Portunix: `make dist` in the repository root (output in `dist/`).
 Run `make help` for all targets.
