@@ -72,6 +72,10 @@ Build and test from the repository root (wraps `mvn -f java/vim-parser/pom.xml c
 make verify
 ```
 
+To check a build isolated from the host environment (clean `~/.m2`, toolchain installed by
+`portunix install`), run `make container-verify` or `uv run scripts/container-build.py --help`
+(see [scripts/container-build.md](scripts/container-build.md)).
+
 `vim-parser-table` consumes `table-detector-api` and `table-detector-pdf` from
 [portunix-plugins](https://github.com/cassandragargoyle/portunix-plugins) as versioned artifacts
 (`table-detector.version` in `java/vim-parser/pom.xml`). Install them locally with
