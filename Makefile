@@ -1,7 +1,7 @@
 # Portunix VIM Makefile
 # vim-parser is a multi-module Maven project in java/vim-parser
 
-.PHONY: build clean test verify install dist help all compile plugins run auto book book-figures
+.PHONY: build clean test verify container-verify install dist help all compile plugins run auto book book-figures
 
 # Plugin info
 PLUGIN_NAME := vim-parser
@@ -42,6 +42,10 @@ test:
 ## verify: Clean build with unit and integration tests (same as CI)
 verify:
 	$(MVN) clean verify
+
+## container-verify: Same as CI, in a clean Portunix container (needs uv, portunix, gh)
+container-verify:
+	uv run scripts/container-build.py
 
 ## clean: Clean build artifacts
 clean:
