@@ -11,9 +11,9 @@ host Linux 7.0 amd64, Java 21.0.10, Maven 3.9.12
 ## Test Summary
 
 - Total test scenarios: 8
-- Passed: 7
+- Passed: 8
 - Failed: 0
-- Skipped: 1 (T6 — CI run on GitHub, branch not pushed yet)
+- Skipped: 0
 
 ## Test Results
 
@@ -24,7 +24,7 @@ host Linux 7.0 amd64, Java 21.0.10, Maven 3.9.12
 - **T3** ✅ PASS: **Given** no credentials, **when** a `table-detector` artifact is downloaded from GitHub Packages, **then** the registry answers `401`, which confirms the documented need for a token
 - **T4** ✅ PASS: **Given** the branch, **when** the workflow, POMs and docs are searched, **then** no checkout of portunix-plugins, no `plugins/table-detector` path, no `1.0.3-SNAPSHOT` and no `github-portunix-*` ids remain (only history notes mention portunix-plugins)
 - **T5** ✅ PASS: **Given** the workflow, **when** the `setup-java` step and the POM are compared, **then** `server-id: github` equals the only GitHub Packages repository id in `java/vim-parser/pom.xml`, with `packages: read` permission
-- **T6** ⏭️ SKIP: **Given** the pushed branch, **when** the `vim-parser` workflow runs (`pull_request` or `workflow_dispatch`), **then** it is green with `GITHUB_TOKEN` only
+- **T6** ✅ PASS: **Given** the pushed branch, **when** the `vim-parser` workflow runs (`pull_request` or `workflow_dispatch`), **then** it is green with `GITHUB_TOKEN` only
 - **T7** ✅ PASS: **Given** the docs, **when** build prerequisites are read, **then** `README.md`, `README.cs.md`, `AGENTS.md` and `GITHUB-WORKFLOW.md` describe the repository id `github` with URL `https://maven.pkg.github.com/cassandragargoyle/*` and the `read:packages` PAT
 - **T8** ✅ PASS: **Given** the changed Markdown files, **when** `markdownlint-cli2` runs, **then** it reports no findings for them
 
@@ -37,6 +37,9 @@ host Linux 7.0 amd64, Java 21.0.10, Maven 3.9.12
 - T3: `curl` without credentials → HTTP `401`; with a token → HTTP `302` (redirect to storage)
 - T5: POM repository ids `central`, `github`; workflow `server-id: github`,
   `server-username: GITHUB_ACTOR`, `server-password: GITHUB_TOKEN`
+- T6: pull request #7, `vim-parser` workflow
+  [run 42565053536](https://github.com/cassandragargoyle/portunix-vim/actions/runs/42565053536)
+  passed in 1 min 12 s without access to portunix-plugins
 
 ### Regression Tests
 
@@ -57,11 +60,8 @@ host Linux 7.0 amd64, Java 21.0.10, Maven 3.9.12
 
 ## Final Decision
 
-**STATUS**: CONDITIONAL
+**STATUS**: PASS
 
-Required before approval: push the branch and confirm T6 (green `vim-parser` workflow on the pull
-request or via `workflow_dispatch`).
-
-**Approval for merge**: NO (pending T6)
+**Approval for merge**: YES
 **Date**: 2026-11-09
 **Tester signature**: Zdenek
