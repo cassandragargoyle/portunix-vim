@@ -21,16 +21,26 @@ For the VIM parser itself (layers, plugins, usage) see
 
 ### Prerequisites
 
-`vim-parser-table` depends on `table-detector-api` and `table-detector-pdf`, which live in
-[portunix-plugins](https://github.com/cassandragargoyle/portunix-plugins) (`plugins/table-detector`).
-Install them into the local Maven repository first:
+`org-cassandragargoyle-api` and `table-detector-api`/`-pdf` (published from
+[portunix-table-detector](https://github.com/cassandragargoyle/portunix-table-detector)) come from
+GitHub Packages through one repository, id `github`, URL
+`https://maven.pkg.github.com/cassandragargoyle/*`. GitHub Packages requires authentication even
+for public packages: create a GitHub personal access token (classic) with the `read:packages`
+scope and add it to `~/.m2/settings.xml`:
 
-```bash
-git clone https://github.com/cassandragargoyle/portunix-plugins
-mvn -f portunix-plugins/plugins/table-detector/pom.xml install -DskipTests
+```xml
+<settings>
+  <servers>
+    <server>
+      <id>github</id>
+      <username>YOUR_GITHUB_LOGIN</username>
+      <password>YOUR_TOKEN</password>
+    </server>
+  </servers>
+</settings>
 ```
 
-The required version is the `table-detector.version` property in
+The required table-detector version is the `table-detector.version` property in
 [`java/vim-parser/pom.xml`](java/vim-parser/pom.xml).
 
 ### Commands

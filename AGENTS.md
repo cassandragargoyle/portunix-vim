@@ -77,9 +77,11 @@ To check a build isolated from the host environment (clean `~/.m2`, toolchain in
 (see [scripts/container-build.md](scripts/container-build.md)).
 
 `vim-parser-table` consumes `table-detector-api` and `table-detector-pdf` from
-[portunix-plugins](https://github.com/cassandragargoyle/portunix-plugins) as versioned artifacts
-(`table-detector.version` in `java/vim-parser/pom.xml`). Install them locally with
-`mvn -f <portunix-plugins>/plugins/table-detector/pom.xml install -DskipTests`.
+[portunix-table-detector](https://github.com/cassandragargoyle/portunix-table-detector) as
+versioned artifacts (`table-detector.version` in `java/vim-parser/pom.xml`) published to GitHub
+Packages. Maven repository id `github` (`https://maven.pkg.github.com/cassandragargoyle/*`) serves
+all cassandragargoyle packages; `~/.m2/settings.xml` needs server `github` with a PAT that has
+`read:packages` (see `README.md`).
 
 Distribution package for Portunix: `make dist` in the repository root (output in `dist/`).
 Run `make help` for all targets.

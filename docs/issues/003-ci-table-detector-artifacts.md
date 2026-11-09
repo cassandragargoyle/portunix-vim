@@ -57,6 +57,28 @@ Local builds work only because `table-detector` is already installed in `~/.m2`.
 1. Remove the "Checkout portunix-plugins" and "Install table-detector" steps from the workflow
 1. Update the build prerequisites in `README.md`, `README.cs.md` and `AGENTS.md`
 
+## Chosen Solution
+
+A variant of option 1: table-detector was moved without git history into the public repository
+[portunix-table-detector](https://github.com/cassandragargoyle/portunix-table-detector)
+(portunix-plugins#239), which publishes `table-detector-{parent,api,core,pdf}` `1.0.3` to GitHub
+Packages.
+
+- `java/vim-parser/pom.xml`: `table-detector.version` = `1.0.3`; the single repository id `github`
+  now points to `https://maven.pkg.github.com/cassandragargoyle/*` instead of
+  `cassandragargoyle/api`
+- `vim-parser.yml`: checkout and install of portunix-plugins removed; `setup-java` keeps writing
+  `settings.xml` with server `github` (`GITHUB_ACTOR` / `GITHUB_TOKEN`, `packages: read`)
+- Local builds need only server `github` in `~/.m2/settings.xml` with a PAT that has
+  `read:packages` (`README.md`, `README.cs.md`, `AGENTS.md`)
+
+Why one id with `/*`: GitHub Packages serves every Maven package of an owner regardless of the
+repository segment in the URL, so one repository covers `org-cassandragargoyle-api` and
+`table-detector-*`. It needs only one credential entry (the same as before this change), and
+portunix-plugins (`text-extractor`) uses the same setup with a green CI. An earlier variant with
+two repository ids (`github-portunix-api`, `github-portunix-table-detector`) worked too, but
+required two servers in every `settings.xml` and a hand-written CI step.
+
 ## Acceptance Criteria
 
 1. The `vim-parser` workflow passes on `main` and on pull requests without access to private

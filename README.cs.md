@@ -22,16 +22,26 @@ Dokumentaci samotného VIM parseru (vrstvy, pluginy, použití) najdete v
 
 ### Předpoklady
 
-`vim-parser-table` závisí na `table-detector-api` a `table-detector-pdf`, které jsou v
-[portunix-plugins](https://github.com/cassandragargoyle/portunix-plugins) (`plugins/table-detector`).
-Nejprve je nainstalujte do lokálního Maven repozitáře:
+`org-cassandragargoyle-api` a `table-detector-api`/`-pdf` (publikované z
+[portunix-table-detector](https://github.com/cassandragargoyle/portunix-table-detector)) se stahují
+z GitHub Packages přes jeden repozitář s id `github` a URL
+`https://maven.pkg.github.com/cassandragargoyle/*`. GitHub Packages vyžaduje autentizaci i u
+veřejných balíčků: vytvořte GitHub personal access token (classic) se scope `read:packages` a
+přidejte ho do `~/.m2/settings.xml`:
 
-```bash
-git clone https://github.com/cassandragargoyle/portunix-plugins
-mvn -f portunix-plugins/plugins/table-detector/pom.xml install -DskipTests
+```xml
+<settings>
+  <servers>
+    <server>
+      <id>github</id>
+      <username>VAS_GITHUB_LOGIN</username>
+      <password>VAS_TOKEN</password>
+    </server>
+  </servers>
+</settings>
 ```
 
-Požadovaná verze je uvedena ve vlastnosti `table-detector.version` v
+Požadovaná verze table-detectoru je uvedena ve vlastnosti `table-detector.version` v
 [`java/vim-parser/pom.xml`](java/vim-parser/pom.xml).
 
 ### Příkazy

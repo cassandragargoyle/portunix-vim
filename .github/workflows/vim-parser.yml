@@ -35,13 +35,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # table-detector-api/-pdf are consumed as versioned artifacts from portunix-plugins
-      - name: Checkout portunix-plugins
-        uses: actions/checkout@v4
-        with:
-          repository: cassandragargoyle/portunix-plugins
-          path: _portunix-plugins
-
       - name: Set up Java
         uses: actions/setup-java@v4
         with:
@@ -52,9 +45,6 @@ jobs:
           server-id: github
           server-username: GITHUB_ACTOR
           server-password: GITHUB_TOKEN
-
-      - name: Install table-detector
-        run: mvn -B -ntp -f _portunix-plugins/plugins/table-detector/pom.xml install -DskipTests
 
       # TK stemmer tests need the native TK library, which the runner does not have
       - name: Build and test
