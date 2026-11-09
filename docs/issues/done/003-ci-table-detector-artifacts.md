@@ -7,7 +7,7 @@ The vim-parser CI workflow cannot build because it needs `table-detector-api` an
 workflow token cannot read. Provide these artifacts to CI in a way that works for a public
 repository.
 
-**Status**: 📋 Open
+**Status**: ✅ Implemented (PR #7, 2026-11-09)
 **Priority**: High
 **Component**: `.github/workflows/vim-parser.yml`, `java/vim-parser/vim-parser-table`
 **Created**: 2026-11-07
